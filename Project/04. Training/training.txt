@@ -1,38 +1,14 @@
-#190503 - 개발환경 구축, 측정 부위별 데이터 분류 및 시각화
+참고싸이트
 
-[진행사항]
-김기홍 : 개발환경 구축 
-김동익 : 측정 부위별 데이터 분류 및 시각화
-이가경 : 측정 부위별 데이터 분류 및 시각화
-이상민 : 개발환경 구축 
+실제 이미지 데이터를 활용한 CNN 모델 구현
+http://www.birc.co.kr/2018/02/26/%EC%8B%A4%EC%A0%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-cnn-%EB%AA%A8%EB%8D%B8-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/#respond
+https://blog.naver.com/jamiet1/221409527938
 
-[향후계획]
-질병 유무 판단 구현 이후 분류 문제 구현
-1. MFCC 전처리 후 SVM 학습
-2. Mel spectrogram 이후 CNN 학습
-3. Colab, jupyter에서 파일을 한번에 로드하는 방법 알아오기
+파이썬으로 mnist 읽기
+https://blog.naver.com/acwboy/220584307823
 
-[질문]
-Training Data, Test Data 나누는 기준 여쭤보기
-학습을 위한 186개 데이터를 한꺼번에 로드하는 방법(path를 통해 혹은 Mnist 이미지 처럼 한 이미지안에 여러 이미지)
+MNIST 튜토리얼
+https://www.tensorflow.org/tutorials/keras/basic_classification?hl=ko
 
-참고 사이트
-http://keunwoochoi.blogspot.com/2016/12/3.html(음성/음악신호 + 머신러닝 초심자를 위한 가이드)
-https://blog.naver.com/jamiet1/221409527938 (내 이미지 데이터로 CNN구현)
-
-
-#190506 - 자료조사, 피쳐추출, 학습방법 회의 
-
-아픈 사람과 아프지 않은 사람의 소리가 어떻게 다른지 직접 데이터를 듣고, 그래프를 봐서 정리해오기로 결정
-> 다음 회의 화요일 밤10시 - 11시
-
-[향후계획]
-1. 어떤 필터 과정이 정확하게 필요한지(스펙트럼을 추출하는 과정 : window, mel, mfcc, stft, log)
-2. 필터 거친 음원 어떻게 CNN에 적용할지
-
-[발견한 문제 가설]
-아픈 환자의 폐소리가 부위별로 다른 건강 상태를 나타낼 수 있는가?
-1번 부위 폐소리 > 아픔. 2번 부위의 소리 > 건강 할 수 있는지?
-
-이럴경우 환자가 2번 폐소리만 input으로 가져올 경우
-> 정상이라 판단하는 문제가 생길 수 있음
+MNIST 자체 dataset 만들기
+http://blog.daum.net/rayolla/1190
