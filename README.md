@@ -3,7 +3,7 @@ Respiratory Diseases Classification Using Audio Data
 
 
 
-#h1 190503 - 개발환경 구축, 측정 부위별 데이터 분류 및 시각화
+# 190503 - 개발환경 구축, 측정 부위별 데이터 분류 및 시각화
 
 [진행사항]
 김기홍 : 개발환경 구축 
