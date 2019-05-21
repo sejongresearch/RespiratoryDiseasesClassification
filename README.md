@@ -4,10 +4,21 @@ Respiratory Diseases Classification Using Audio Data
   
   
 ## 목차 
-- [Heading Tag](#Heading-Tag)
-- [Table](#table)
+- [프로젝트 목표](#프로젝트-목표)
+- [진행경과](#진행경과)
+- [회의록](#회의록)
 
+---
 
+## 프로젝트 목표
+
+---
+
+## 진행경과
+
+---
+
+## 회의록 
 
 ## 190503 - 개발환경 구축, 측정 부위별 데이터 분류 및 시각화
 ```
