@@ -12,10 +12,16 @@ Respiratory Diseases Classification Using Audio Data
 
 ## 프로젝트 목표
 
+* 일번
+* 이번
+
+
 ---
 
 ## 진행경과
 
+* 일번
+* 이번
 ---
 
 ## 회의록 
@@ -40,8 +46,9 @@ Training Data, Test Data 나누는 기준 여쭤보기
 학습을 위한 186개 데이터를 한꺼번에 로드하는 방법(path를 통해 혹은 Mnist 이미지 처럼 한 이미지안에 여러 이미지)
 
 참고 사이트
-http://keunwoochoi.blogspot.com/2016/12/3.html(음성/음악신호 + 머신러닝 초심자를 위한 가이드)
-https://blog.naver.com/jamiet1/221409527938 (내 이미지 데이터로 CNN구현)
+[음성/음악신호 + 머신러닝 초심자를 위한 가이드](http://keunwoochoi.blogspot.com/2016/12/3.html)
+[내 이미지 데이터로 CNN구현](https://blog.naver.com/jamiet1/221409527938)
+
 ```
 
 ## 190506 - 자료조사, 피쳐추출, 학습방법 회의 
