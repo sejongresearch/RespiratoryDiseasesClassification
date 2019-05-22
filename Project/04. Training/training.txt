@@ -1,0 +1,14 @@
+참고싸이트
+
+실제 이미지 데이터를 활용한 CNN 모델 구현
+http://www.birc.co.kr/2018/02/26/%EC%8B%A4%EC%A0%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-cnn-%EB%AA%A8%EB%8D%B8-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/#respond
+https://blog.naver.com/jamiet1/221409527938
+
+파이썬으로 mnist 읽기
+https://blog.naver.com/acwboy/220584307823
+
+MNIST 튜토리얼
+https://www.tensorflow.org/tutorials/keras/basic_classification?hl=ko
+
+MNIST 자체 dataset 만들기
+http://blog.daum.net/rayolla/1190
