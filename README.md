@@ -22,7 +22,7 @@ Respiratory Diseases Classification Using Audio Data
 
 * 187개 호흡 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도
 * 정확도 향상을 위한 다른 방법 고안
-  * Multi Channel까지 데이터 늘려보기-완료
+  * ~~Multi Channel까지 데이터 늘려보기~~(완료)
   * 이미즈 사이즈 조절에 따른 정확도
   * 다른 Filter를 통한 Feature 추출
   * Sampling rate 조절
