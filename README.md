@@ -22,7 +22,7 @@ Respiratory Diseases Classification Using Audio Data
 
 * 187개 호흡 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도
 * 정확도 향상을 위한 다른 방법 고안
-  * Multi Channel까지 데이터 늘려보기
+  * Multi Channel까지 데이터 늘려보기-완료
   * 이미즈 사이즈 조절에 따른 정확도
   * 다른 Filter를 통한 Feature 추출
   * Sampling rate 조절
@@ -104,4 +104,30 @@ Training Data, Test Data 나누는 기준 여쭤보기
 3. MFCC > 학습, MFCC+delta > 학습
 4. Sampling rate 조절
 5. Validation을  어떻게 구성할것인지
+```
+
+## 190524 - 데이터 처리, Validation 작업 모듈화, MC 추가 데이터 확보, 추가 데이터 파일 업데이트 및 공유
+```
+김기홍 : STFT 이미지 자동 저장 모듈화, test_list 이미지 생성 및 자동 분류 모듈화하기
+김동익 : 
+이가경 : 
+이상민 : 
+
+[향후 계획]
+1. Validation > train, test rate만 조절해서 자동으로 분류할 수 있도록 모듈화
+2. 이미즈 사이즈 조절하면 자동으로 생성될 수 있도록 모듈화
+3. SC / SC + MC | MFCC, MFCC+delta, STFT | train, test rate 변화에 따른 정확도 측정
+4. 질병분류를 위한 작업 준비
+
+5/26 : 모듈화 완료
+5/31 : 3번 학습 진행해서 결과 값 기록
+6/6 : 분류 / SVM / 정확도 향상 분담해서 프로젝트 진행
+6/7 : 발표자료 준비
+6/13 : 발표
+
+[기타]
+MFCC smapling rate 조절에 따른 이미지 사이즈 조절여부 issue에 가경이가 정리해서 올리기
+rate에 따라 사이즈를 다르게 생성해야 하는 것이 아닌지?
+
+참고 블로그, 논문 별 어떻게 정리, 발표할지 
 ```
