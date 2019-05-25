@@ -1,0 +1,14 @@
+data 파일에 SC_answer, SC_file_name, wav폴더(음원담긴) 필요
+
+test_train_image폴더에 test, train 분류되어 이미지 생성됨
+
+2번째 섹션 > 이미지 자동 생성 분류
+> test_list 임의로 넣보고 테스트 해봄 리스트 안에 숫자바꿔서도 이미지파일 생성, 라벨링 맞게 되는지 한번 더 확인 바람 
+> range 변경해가며 test 확인 바람
+
+
+3번째 섹션 > '''[test]file_name.csv create''',     '''[test]ans.csv create'''
+>test_list length만큼 range 돌림
+
+4번째 섹션 > '''[train]file_name.csv create''',     '''[train]ans.csv create'''
+>range를 전체 파일 개수로 수정해서 돌려야함
