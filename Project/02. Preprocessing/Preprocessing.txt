@@ -1,5 +1,0 @@
-참고 싸이트 
-Mel Frequency Cepstral Coefficient (MFCC) 란 무엇인가? 
-https://m.blog.naver.com/mylogic/220988857132
-영문판
-http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/#comment-3266294515
