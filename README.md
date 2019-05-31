@@ -109,8 +109,8 @@ Training Data, Test Data 나누는 기준 여쭤보기
 ```
 김기홍 : STFT 이미지 자동 저장 모듈화, test_list 이미지 생성 및 자동 분류 모듈화하기
 김동익 : train,test 데이터 랜덤 분류 모듈화
-이가경 : 
-이상민 : 
+이가경 : MFCC+delta, MFCC,STFT 
+이상민 : MFCC+delta 적용 후, 이미지 데이터 저장
 
 [향후 계획]
 1. Validation > train, test rate만 조절해서 자동으로 분류할 수 있도록 모듈화 (완료)
