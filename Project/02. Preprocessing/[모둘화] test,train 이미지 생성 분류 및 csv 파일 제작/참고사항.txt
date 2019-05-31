@@ -12,3 +12,5 @@ test_train_image폴더에 test, train 분류되어 이미지 생성됨
 
 4번째 섹션 > '''[train]file_name.csv create''',     '''[train]ans.csv create'''
 >range를 전체 파일 개수로 수정해서 돌려야함
+
+참고
