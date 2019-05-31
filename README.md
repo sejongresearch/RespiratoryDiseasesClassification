@@ -20,11 +20,6 @@ Respiratory Diseases Classification Using Audio Data
 
 ## 진행경과
 
-* 187개 호흡 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도 (완료)
-* 정확도 향상을 위한 다른 방법 고안
-  * ~~Multi Channel까지 데이터 늘려보기~~(완료)
-
-  
 * 질분 유무 판단(진행중)
   * 개발환경 구축, 음원 데이터 분류 및 시각화, 피처추출, CNN 모델 설계, 학습에 필요한 전처리, 피처추출 과정 모듈화(완료)
   * 187개 호흡 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도
