@@ -192,7 +192,7 @@ SC만 정확도 높여보고 SVM 학습법 없이 2가지 방향으로 프로젝
 SVM 학습에 어려움이 있어 남은 시간 학습법 적용에 시간을 할애하고 18일 이후 발표PPT 제작 및 구체적인 진행 준비 예정
 ```
 
-#### 참고싸이트
-[SVM 강의자료](https://seslab.kaist.ac.kr/xe2/page_GBex27)
-[SVM 학습자료](https://ko.wikipedia.org/wiki/%EC%84%9C%ED%8F%AC%ED%8A%B8_%EB%B2%A1%ED%84%B0_%EB%A8%B8%EC%8B%A0)
+#### 참고 사이트
+[SVM 강의자료](https://seslab.kaist.ac.kr/xe2/page_GBex27) 
+[SVM 학습자료](https://ko.wikipedia.org/wiki/%EC%84%9C%ED%8F%AC%ED%8A%B8_%EB%B2%A1%ED%84%B0_%EB%A8%B8%EC%8B%A0) 
 [SVM using MFCC 관련 프로젝트](https://www.kaggle.com/anmour/svm-using-mfcc-features)
