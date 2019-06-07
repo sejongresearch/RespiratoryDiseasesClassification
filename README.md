@@ -1,4 +1,4 @@
-# Greatest-Classify-Group
+﻿# Greatest-Classify-Group
 Respiratory Diseases Classification Using Audio Data  
   
   
@@ -180,3 +180,19 @@ SC만 정확도 높여보고 SVM 학습법 없이 2가지 방향으로 프로젝
 [고민거리] 잡음이 포함된 MC가 정확도가 더 낮게 나올 것 같았는데 오히려 데이터 양이 훨씬 많으니까 더 높게 나와버림. SMV가 필요한가(?), SVM > SC에는 적용해볼 법. 
 
 ```
+
+
+## 190606 - 7가지 질병분류(112x112)사이즈 mfcc(+delta) 완료, SVM 학습
+```
+김기홍 : SMV 학습 후 기존 모델에 적용 중
+김동익 : 질병분류 작업 부분 완료 > 정확도 향상을 위한 작업들 진행할 것
+이가경 : 질병분류 작업 부분 완료 > 정확도 향상을 위한 작업들 진행할 것
+이상민 : SMV 학습 후 기존 모델에 적용 중
+
+SVM 학습에 어려움이 있어 남은 시간 학습법 적용에 시간을 할애하고 18일 이후 발표PPT 제작 및 구체적인 진행 준비 예정
+```
+
+#### 참고싸이트
+[SVM 강의자료](https://seslab.kaist.ac.kr/xe2/page_GBex27)
+[SVM 학습자료](https://ko.wikipedia.org/wiki/%EC%84%9C%ED%8F%AC%ED%8A%B8_%EB%B2%A1%ED%84%B0_%EB%A8%B8%EC%8B%A0)
+[SVM using MFCC 관련 프로젝트](https://www.kaggle.com/anmour/svm-using-mfcc-features)
