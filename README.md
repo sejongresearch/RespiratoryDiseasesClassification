@@ -195,4 +195,23 @@ SVM 학습에 어려움이 있어 남은 시간 학습법 적용에 시간을 �
 #### 참고 사이트
 [SVM 강의자료](https://seslab.kaist.ac.kr/xe2/page_GBex27) 
 [SVM 학습자료](https://ko.wikipedia.org/wiki/%EC%84%9C%ED%8F%AC%ED%8A%B8_%EB%B2%A1%ED%84%B0_%EB%A8%B8%EC%8B%A0) 
+[SVM 학습자료2](https://scikit-learn.org/stable/modules/svm.html#multi-class-classification)
 [SVM using MFCC 관련 프로젝트](https://www.kaggle.com/anmour/svm-using-mfcc-features)
+
+## 190611 - 시각화 자료 준비중, 필터별 특징 정리(기준값에 따른 어떤 변화가 나타나는지), SVM 학습 진행중
+```
+여러 필터를 한번에 적용하는 것 구현
+SVM 학습과 연결 중
+발표에 사용할 시각화 자료 및 주요 특징들 참고 사이트 정리
+```
+
+#### 참고 사이트
+[librosa.feature 특징](http://librosa.github.io/librosa/generated/librosa.feature.spectral_contrast.html)
+[SVM using Voice data](https://www.kaggle.com/nirajvermafcb/support-vector-machine-detail-analysis)
+
+#### Base 사이트
+[Respiratory Sound Database](http://www.auditory.org/mhonarc/2018/msg00007.html)
+[Kaggle data](https://www.kaggle.com/vbookshelf/respiratory-sound-database/kernels)
+[Base 논문](https://eden.dei.uc.pt/~ruipedro/publications/Conferences/ICBHI2017a.pdf)
+[Base 응용작업1](https://www.kaggle.com/eatmygoose/cnn-detection-of-wheezes-and-crackles)___wheeze, crackles 분류 / 시각화 도움
+[Base 응용작업2](https://www.kaggle.com/vbookshelf/play-audio-read-the-files-create-a-spectrogram)___시각화 도움
