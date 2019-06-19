@@ -1,24 +1,24 @@
 ﻿# Greatest-Classify-Group
 Respiratory Diseases Classification Using Audio Data  
   
-  
-  
+
 ## 목차 
 - [프로젝트 목표](#프로젝트-목표)
-- [진행경과](#진행경과)
-- [회의록](#회의록)
+- [데이터 전처리](#데이터-전처리)
+- [학습과정](#학습과정)
+- [검증](#검증)
+- [추가작업](#추가작업)
+- [회의록 모음](#회의록-모음)
 
 ---
 
 ## 프로젝트 목표
 
-* ICBHI 2017 Challenge Respiratory Sound Database을 사용한 질병 유무 판단의 정확도 향상
-* ICBHI 2017 Challenge Respiratory Sound Database을 사용한 질병 분류의 정확도 향상
-
+* ICBHI 2017 Challenge Respiratory Sound Database(링크)을 이용한 질병 분류 작업을 진행하였습니다. 정확도 향상을 목표로 기존 작업물(Base논문(링크), CNN커널러(링크))과 다른 전처리 과정 및 학습법을 적용하였습니다. 
 
 ---
 
-## 진행경과
+## 데이터 전처리
 
 * 질분 유무 판단(진행중)
   * 개발환경 구축, 음원 데이터 분류 및 시각화, 피처추출, CNN 모델 설계, 학습에 필요한 전처리, 피처추출 과정 모듈화(완료)
@@ -29,4 +29,15 @@ Respiratory Diseases Classification Using Audio Data
 * 질병 분류 작업(예정)
 ---
 
+## 학습과정
+
+---
+
+## 검증
+
+---
+
+## 추가작업
+
+---
 ## [회의록 모음](https://github.com/Hongiee2/Greatest-Classify-Group/issues/2)
