@@ -29,4 +29,4 @@ Respiratory Diseases Classification Using Audio Data
 * 질병 분류 작업(예정)
 ---
 
-## [회의록](https://github.com/Hongiee2/Greatest-Classify-Group/issues/2)
+## [회의록 모음](https://github.com/Hongiee2/Greatest-Classify-Group/issues/2)
