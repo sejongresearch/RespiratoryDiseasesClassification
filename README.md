@@ -14,7 +14,13 @@ Respiratory Diseases Classification Using Audio Data
 - [학습과정](#학습과정)
 - [검증](#검증)
 - [추가작업](#추가작업)
-- [회의록 모음](#회의록-모음)
+
+---
+
+##  결과물
+- [텀프로젝트 논문]()
+- [텀프로젝트 발표 PPT]()
+- [회의일지](https://github.com/Hongiee2/Greatest-Classify-Group/issues/2)
 
 ---
 
@@ -53,25 +59,33 @@ Respiratory Diseases Classification Using Audio Data
 ## 학습과정
   
 * CNN 학습 진행
-  * 187개 호흡 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도
-  * 필터거친 이미지
+  * 920개 호흡 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도
+  * layer 개수, Learning_rate, batch_size, train_test rate 변경해가며 정확도 측정 (예정)
+  * 질병 유무 작업
+  * 질병 분류 작업
+  * 학습모델 이미지
 
 ---
 
 ## 검증
 
-* 질분 유무 판단(진행중)
+* Train Data와 Test Data 8:2 비율로 질분 유무, 분류 작업 진행
   * 920개 호흡 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도
-  * layer 개수, Learning_rate, batch_size, train_test rate 변경해가며 정확도 측정 (예정)
-  * 결과 정리후 관련 결과물들 링크처리
+
+* 질병 유무 판단 결과
+  * 128X128 사이즈, 64X64 사이즈
+* 질병 분류 작업 결과
+  * 128X128 사이즈, 64X64 사이즈
+* 결과 정리후 관련 결과물들 링크처리
+
 ---
 
 ## 추가작업
 
-* 다중 필터 사용, SVM 학습 진행
-  * 920개 호흡 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도
-  * 정확도 향상을 위한 다양한 시도와 성능 비교(잡음 섞인 데이터셋 추가, 다른 Filter 사용, SVM 학습법 적용 (진행중)
-
+* SVM 학습 진행
+* 다중 필터 적용
+* 질병 유무 판단 결과
+* 질병 분류 작업 결과
 
 ---
-## [회의록 모음](https://github.com/Hongiee2/Greatest-Classify-Group/issues/2)
+
