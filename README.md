@@ -24,14 +24,22 @@ Respiratory Diseases Classification Using Audio Data
   * 데이터에서 시간에 대해 구간을 짧게 나누어 나누어진 여러 구간의 데이터를 각각 Fourier Transform 하는 방법 - 참고자료
 
 <div>
+<p align="center">
 <img width="250" src="https://user-images.githubusercontent.com/46617803/59761766-9f997d00-92d0-11e9-872c-c91f694e1bd4.png">
 <img width="250" src="https://user-images.githubusercontent.com/46617803/59761767-a0caaa00-92d0-11e9-9f3c-730bda576c2b.png">
 <img width="250" src="https://user-images.githubusercontent.com/46617803/59761767-a0caaa00-92d0-11e9-9f3c-730bda576c2b.png">
+</p>
 </div>
   
 * MFCC Filter - [Code]()
   * MFCC 설명 - 참고자료
-  * 이미지
+<div>
+<p align="center">
+<img width="250" src="https://user-images.githubusercontent.com/48382704/59762719-db354680-92d2-11e9-975e-c0e3d6c8ccba.png">
+<img width="250" src="https://user-images.githubusercontent.com/48382704/59762731-dec8cd80-92d2-11e9-9b9a-c855c969862b.png">
+<img width="250" src="https://user-images.githubusercontent.com/48382704/59762755-e8eacc00-92d2-11e9-9f5e-6c1a80cf71c5.png">
+</p>
+</div>
 
 * MFCC Delta Filter - [Code]()
   * MFCC Delta 설명 - 참고자료
