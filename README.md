@@ -26,7 +26,7 @@ Respiratory Diseases Classification Using Audio Data
 
 ## 데이터 전처리
 
-* STFT Filter - [Code]()
+* STFT Filter - [[Code]()]
   * 데이터에서 시간에 대해 구간을 짧게 나누어 나누어진 여러 구간의 데이터를 각각 Fourier Transform 하는 방법 - 참고자료
 
 <div>
@@ -37,7 +37,7 @@ Respiratory Diseases Classification Using Audio Data
 </p>
 </div>
   
-* MFCC Filter - [Code]()
+* MFCC Filter - [[Code]()]
   * MFCC 설명 - 참고자료
 <div>
 <p align="center">
@@ -47,22 +47,22 @@ Respiratory Diseases Classification Using Audio Data
 </p>
 </div>
 
-* MFCC Delta Filter - [Code]()
+* MFCC Delta Filter - [[Code]()]
   * MFCC Delta 설명 - 참고자료
   * 이미지
 
-* 이미지 생성 모듈화 - [Code]() //오류안난 것으로 업로드 할 것
+* 이미지 생성 모듈화 - [[Code]()] //오류안난 것으로 업로드 할 것
   * CNN 학습에 필요한 이미지를 자동 생성하도록 모듈화 시켰습니다. 이미지를 생성하기 위해 Wav 폴더에 음원 파일을 넣고 해당 폴더에 대한 정보를 담은 CSV 파일이 요구됩니다. 이후 원하는 필터를 선택해 코드를 실행하면 자동으로 Train, Test 폴더에 설정한 비율에 따라 라벨링된 이미지들이 생성됩니다.
 
 ---
 
 ## 학습과정
   
-* CNN 학습 진행
+* CNN 학습 진행 - [[Code]()]
   * 920개 호흡 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도
   * layer 개수, Learning_rate, batch_size, train_test rate 변경해가며 정확도 측정 (예정)
-  * 질병 유무 작업
-  * 질병 분류 작업
+* 질병 유무 판단 - [[Code]()]
+* 질병 분류 작업 - [[Code]()]
   * 학습모델 이미지
 
 ---
@@ -72,20 +72,28 @@ Respiratory Diseases Classification Using Audio Data
 * Train Data와 Test Data 8:2 비율로 질분 유무, 분류 작업 진행
   * 920개 호흡 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도
 
-* 질병 유무 판단 결과
+* 질병 유무 판단 결과 
   * 128X128 사이즈, 64X64 사이즈
 * 질병 분류 작업 결과
   * 128X128 사이즈, 64X64 사이즈
+
 * 결과 정리후 관련 결과물들 링크처리
 
 ---
 
 ## 추가작업
 
-* SVM 학습 진행
-* 다중 필터 적용
-* 질병 유무 판단 결과
-* 질병 분류 작업 결과
+* SVM 학습 진행 - [[Code]()]
+  * 지도 학습 방식의 대표 분류 기법인 SVM사용. 이미지 인식, 음성 인식 등 벡토공간으로 표현해 최적 분리.
+  * SVM은 결정 경계를 찾는데 kernel function이란 개념을 도입하여 특징 공간을 접어버리거나 꼬아버려 선형으로 분류할 수 있게 만듬.
+  * [자료정리중](https://blog.naver.com/slykid/221183951057)[자료정리중2](https://blog.naver.com/genesis717/220657502933)
+  * [자료정리중](http://www.itdaily.kr/news/articleView.html?idxno=69618)[자료정리중](https://m.blog.naver.com/sbd38/221371546928)
+
+* 다중 필터 적용 - [[Code]()]
+
+* 질병 유무 판단 결과 - [[Code]()]
+
+* 질병 분류 작업 결과 - [[Code]()]
 
 ---
 
