@@ -31,11 +31,13 @@ Respiratory Diseases Classification Using Audio Data
 
 * STFT Filter
   * 데이터에서 시간에 대해 구간을 짧게 나누어 나누어진 여러 구간의 데이터를 각각 Fourier Transform 하는 방법 - 참고자료
+  
 
   
 * MFCC Filter
-  * MFCC 설명 - 참고자료
-<div>
+  * 입력된 소리 전체를 대상으로 하는 것이 아닌 일정 구간(Short time)으로 나누어, 이 구간에 대한 스펙트럼을 분석하여 특징을 추출. 
+  * 특징을 추출하기 위해 단계별로 진행됨[[참고자료]()]
+  <div>
 <p align="center">
 <img width="250" src="https://user-images.githubusercontent.com/48382704/59762719-db354680-92d2-11e9-975e-c0e3d6c8ccba.png">
 <img width="250" src="https://user-images.githubusercontent.com/48382704/59762731-dec8cd80-92d2-11e9-9b9a-c855c969862b.png">
@@ -45,7 +47,6 @@ Respiratory Diseases Classification Using Audio Data
 
 * MFCC Delta Filter
   * MFCC Delta 설명 - 참고자료
-  * 이미지
   <div>
 <p align="center">
 <img width="250" src="https://user-images.githubusercontent.com/46617803/59761766-9f997d00-92d0-11e9-872c-c91f694e1bd4.png">
