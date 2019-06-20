@@ -98,11 +98,7 @@ Respiratory Diseases Classification Using Audio Data
 
   * SVM은 선형분류와 더불어 비선형 분류에도 사용됩니다. 비선형 분류를 하기 위해 주어진 데이터를 고차원 특징 공간으로 만드는 작업이 필요합니다. SVM은 kernel function이란 개념을 도입하여 특징 공간을 접어버리거나 꼬아버려 비선형 데이터를 선형으로 분류할 수 있게 만듭니다.
  
-  * 이미지
-
-  * SVM는 차원 수 > 데이터 수 일대 효과적인 장점이 있습니다. 단점으로는 데이터가 너무 많으면 속도가 느리고 메모리 소모가 크다는 점이 있습니다.
-
-<p align="center">
+  * <p align="center">
 <img width="400" src="https://user-images.githubusercontent.com/46617803/59865181-655cd800-93c3-11e9-969e-e856405d6130.png">
 </p>
 
@@ -110,12 +106,19 @@ Respiratory Diseases Classification Using Audio Data
 사용한 커널에 따라 다른 정확도를 보인다.
 </p>
 
+  * SVM는 차원 수 > 데이터 수 일대 효과적인 장점이 있습니다. 단점으로는 데이터가 너무 많으면 속도가 느리고 메모리 소모가 크다는 점이 있습니다.
+
+
+
 * 피쳐추출
   * 다중 필터 적용 - [[Code]()]
 
 * 차원축소
   * 
 
+* C, G 값 설정
+  * SVM에서 Over fitting을 막기 위해서는 Parameter인 C, gamma, kernel paramter를 잘 조절해야 합니다. C 값은 
+  * kernel을 rbf로 사용하게 될 경우 training data set의 수를 줄여 먼저 C parameter 값을 최적화 시키고 그 다음 원래 training data set을 가지고 fitting 시키면 최적화된 SVM을 얻습니다.
 
 <div>
 <p align="center">
@@ -123,11 +126,6 @@ Respiratory Diseases Classification Using Audio Data
 <img width="400" src="https://user-images.githubusercontent.com/46617803/59864929-c801a400-93c2-11e9-917b-cfd1e7710b8a.png">
 </p>
 </div>
-
-* C, G 값 설정
-  * SVM에서 Over fitting을 막기 위해서는 Parameter인 C, gamma, kernel paramter를 잘 조절해야 합니다. C 값은 
-  * kernel을 rbf로 사용하게 될 경우 training data set의 수를 줄여 먼저 C parameter 값을 최적화 시키고 그 다음 원래 training data set을 가지고 fitting 시키면 최적화된 SVM을 얻습니다.
-
 
 * 질병 유무 판단 결과 - [[Code]()]
 
