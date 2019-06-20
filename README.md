@@ -88,17 +88,18 @@ Respiratory Diseases Classification Using Audio Data
 
 ## 추가작업
 
-* SVM(Support Vector Machine) 학습 진행 - [[Code]()]
-
 <p align="center">
 <img width="250" src="https://user-images.githubusercontent.com/46617803/59861489-dd270480-93bb-11e9-844b-008ea200264f.png">
 </p>
-* 
+
+* SVM(Support Vector Machine) 학습 진행 - [[Code]()]
+
   * 지도 학습 방식의 대표 분류 기법인 SVM을 사용했습니다. SVM은 데이터를 벡터공간으로 표현 후 서포터 벡터(각 분류의 경계선에 가장 가까이 있는 벡터)간의 거리를 최대화하여 데이터들을 분류합니다.
 
-
   * SVM은 선형분류와 더불어 비선형 분류에도 사용됩니다. 비선형 분류를 하기 위해 주어진 데이터를 고차원 특징 공간으로 만드는 작업이 필요합니다. SVM은 kernel function이란 개념을 도입하여 특징 공간을 접어버리거나 꼬아버려 비선형 데이터를 선형으로 분류할 수 있게 만듭니다.
+ 
   * 이미지
+
   * SVM는 차원 수 > 데이터 수 일대 효과적인 장점이 있습니다. 단점으로는 데이터가 너무 많으면 속도가 느리고 메모리 소모가 크다는 점이 있습니다.
 
 
@@ -109,14 +110,15 @@ Respiratory Diseases Classification Using Audio Data
   * 
 
 * C, G 값 설정
-  * 
+  * SVM에서 Over fitting을 막기 위해서는 Parameter인 C, gamma, kernel paramter를 잘 조절해야 합니다. C 값은 
+  * kernel을 rbf로 사용하게 될 경우 training data set의 수를 줄여 먼저 C parameter 값을 최적화 시키고 그 다음 원래 training data set을 가지고 fitting 시키면 최적화된 SVM을 얻습니다.
 
 * 질병 유무 판단 결과 - [[Code]()]
 
 * 질병 분류 작업 결과 - [[Code]()]
 
 * 결론
-  * 
+  * CNN 학습대비 더 적은 데이터로도 높은 분류 정확도를 보였습니다. 하지만 데이터가 많아질 경우 ~~단점을 보임.
 ---
 
   * [자료정리중](https://blog.naver.com/slykid/221183951057)[자료정리중2](https://blog.naver.com/genesis717/220657502933)
