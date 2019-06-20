@@ -36,7 +36,7 @@ Respiratory Diseases Classification Using Audio Data
   
 * MFCC Filter
   * 입력된 소리 전체를 대상으로 하는 것이 아닌 일정 구간(Short time)으로 나누어, 이 구간에 대한 스펙트럼을 분석하여 특징을 추출. 
-  * 특징을 추출하기 위해 단계별로 진행됨[[참고자료]()]
+  * 특징을 추출하기 위해 단계별로 진행됨[[참고자료](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/03.%20Feature%20extraction/MFCC%EB%9E%80.docx)]
   <div>
 <p align="center">
 <img width="250" src="https://user-images.githubusercontent.com/48382704/59762719-db354680-92d2-11e9-975e-c0e3d6c8ccba.png">
