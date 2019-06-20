@@ -89,11 +89,13 @@ Respiratory Diseases Classification Using Audio Data
 ## 추가작업
 
 * SVM(Support Vector Machine) 학습 진행 - [[Code]()]
-  * 지도 학습 방식의 대표 분류 기법인 SVM을 사용했습니다. SVM은 데이터를 벡터공간으로 표현 후 서포터 벡터(각 분류의 경계선에 가장 가까이 있는 벡터)간의 거리를 최대화하여 데이터들을 분류합니다.
 
 <p align="center">
-<img width="250" src="https://user-images.githubusercontent.com/46617803/59861486-db5d4100-93bb-11e9-8194-771637615466.png">
+<img width="250" src="https://user-images.githubusercontent.com/46617803/59861489-dd270480-93bb-11e9-844b-008ea200264f.png">
 </p>
+* 
+  * 지도 학습 방식의 대표 분류 기법인 SVM을 사용했습니다. SVM은 데이터를 벡터공간으로 표현 후 서포터 벡터(각 분류의 경계선에 가장 가까이 있는 벡터)간의 거리를 최대화하여 데이터들을 분류합니다.
+
 
   * SVM은 선형분류와 더불어 비선형 분류에도 사용됩니다. 비선형 분류를 하기 위해 주어진 데이터를 고차원 특징 공간으로 만드는 작업이 필요합니다. SVM은 kernel function이란 개념을 도입하여 특징 공간을 접어버리거나 꼬아버려 비선형 데이터를 선형으로 분류할 수 있게 만듭니다.
   * 이미지
