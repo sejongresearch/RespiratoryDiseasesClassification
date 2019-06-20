@@ -20,13 +20,16 @@ Respiratory Diseases Classification Using Audio Data
 ##  결과물
 - [텀프로젝트 논문]()
 - [텀프로젝트 발표 PPT]()
-- [회의일지](https://github.com/Hongiee2/Greatest-Classify-Group/issues/2)
+
+---
+
+## [회의일지](https://github.com/Hongiee2/Greatest-Classify-Group/issues/2)
 
 ---
 
 ## 데이터 전처리
 
-* STFT Filter - [[Code]()]
+* STFT Filter
   * 데이터에서 시간에 대해 구간을 짧게 나누어 나누어진 여러 구간의 데이터를 각각 Fourier Transform 하는 방법 - 참고자료
 
 <div>
@@ -37,7 +40,7 @@ Respiratory Diseases Classification Using Audio Data
 </p>
 </div>
   
-* MFCC Filter - [[Code]()]
+* MFCC Filter
   * MFCC 설명 - 참고자료
 <div>
 <p align="center">
@@ -47,7 +50,7 @@ Respiratory Diseases Classification Using Audio Data
 </p>
 </div>
 
-* MFCC Delta Filter - [[Code]()]
+* MFCC Delta Filter
   * MFCC Delta 설명 - 참고자료
   * 이미지
 
@@ -89,11 +92,20 @@ Respiratory Diseases Classification Using Audio Data
   * [자료정리중](https://blog.naver.com/slykid/221183951057)[자료정리중2](https://blog.naver.com/genesis717/220657502933)
   * [자료정리중](http://www.itdaily.kr/news/articleView.html?idxno=69618)[자료정리중](https://m.blog.naver.com/sbd38/221371546928)
 
-* 다중 필터 적용 - [[Code]()]
+* 피쳐추출
+  * 다중 필터 적용 - [[Code]()]
+
+* 차원축소
+  * 
+
+* C, G 값 설정
+  * 
 
 * 질병 유무 판단 결과 - [[Code]()]
 
 * 질병 분류 작업 결과 - [[Code]()]
 
+* 결론
+  * 
 ---
 
