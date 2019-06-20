@@ -88,11 +88,17 @@ Respiratory Diseases Classification Using Audio Data
 
 ## 추가작업
 
-* SVM 학습 진행 - [[Code]()]
-  * 지도 학습 방식의 대표 분류 기법인 SVM사용. 이미지 인식, 음성 인식 등 벡토공간으로 표현해 최적 분리.
-  * SVM은 결정 경계를 찾는데 kernel function이란 개념을 도입하여 특징 공간을 접어버리거나 꼬아버려 선형으로 분류할 수 있게 만듬.
-  * [자료정리중](https://blog.naver.com/slykid/221183951057)[자료정리중2](https://blog.naver.com/genesis717/220657502933)
-  * [자료정리중](http://www.itdaily.kr/news/articleView.html?idxno=69618)[자료정리중](https://m.blog.naver.com/sbd38/221371546928)
+* SVM(Support Vector Machine) 학습 진행 - [[Code]()]
+  * 지도 학습 방식의 대표 분류 기법인 SVM을 사용했습니다. SVM은 데이터를 벡터공간으로 표현 후 서포터 벡터(각 분류의 경계선에 가장 가까이 있는 벡터)간의 거리를 최대화하여 데이터들을 분류합니다.
+
+<p align="center">
+<img width="250" src="https://user-images.githubusercontent.com/46617803/59861486-db5d4100-93bb-11e9-8194-771637615466.png">
+</p>
+
+  * SVM은 선형분류와 더불어 비선형 분류에도 사용됩니다. 비선형 분류를 하기 위해 주어진 데이터를 고차원 특징 공간으로 만드는 작업이 필요합니다. SVM은 kernel function이란 개념을 도입하여 특징 공간을 접어버리거나 꼬아버려 비선형 데이터를 선형으로 분류할 수 있게 만듭니다.
+  * 이미지
+  * SVM는 차원 수 > 데이터 수 일대 효과적인 장점이 있습니다. 단점으로는 데이터가 너무 많으면 속도가 느리고 메모리 소모가 크다는 점이 있습니다.
+
 
 * 피쳐추출
   * 다중 필터 적용 - [[Code]()]
@@ -111,3 +117,5 @@ Respiratory Diseases Classification Using Audio Data
   * 
 ---
 
+  * [자료정리중](https://blog.naver.com/slykid/221183951057)[자료정리중2](https://blog.naver.com/genesis717/220657502933)
+  * [자료정리중](http://www.itdaily.kr/news/articleView.html?idxno=69618)[자료정리중](https://m.blog.naver.com/sbd38/221371546928)
