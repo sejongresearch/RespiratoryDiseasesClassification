@@ -89,7 +89,7 @@ Respiratory Diseases Classification Using Audio Data
 ## 추가작업
 
 <p align="center">
-<img width="250" src="https://user-images.githubusercontent.com/46617803/59861489-dd270480-93bb-11e9-844b-008ea200264f.png">
+<img width="400" src="https://user-images.githubusercontent.com/46617803/59861489-dd270480-93bb-11e9-844b-008ea200264f.png">
 </p>
 
 * SVM(Support Vector Machine) 학습 진행 - [[Code]()]
@@ -103,8 +103,11 @@ Respiratory Diseases Classification Using Audio Data
   * SVM는 차원 수 > 데이터 수 일대 효과적인 장점이 있습니다. 단점으로는 데이터가 너무 많으면 속도가 느리고 메모리 소모가 크다는 점이 있습니다.
 
 <p align="center">
-<img width="250" src="https://user-images.githubusercontent.com/46617803/59865181-655cd800-93c3-11e9-969e-e856405d6130.png">
-*사용한 커널에 따라 다른 정확도를 보인다.
+<img width="400" src="https://user-images.githubusercontent.com/46617803/59865181-655cd800-93c3-11e9-969e-e856405d6130.png">
+</p>
+
+<p align="center">
+사용한 커널에 따라 다른 정확도를 보인다.
 </p>
 
 * 피쳐추출
@@ -116,8 +119,8 @@ Respiratory Diseases Classification Using Audio Data
 
 <div>
 <p align="center">
-<img width="250" src="https://user-images.githubusercontent.com/46617803/59864925-c6d07700-93c2-11e9-90a2-bbe85cb5427b.png">
-<img width="250" src="https://user-images.githubusercontent.com/46617803/59864929-c801a400-93c2-11e9-917b-cfd1e7710b8a.png">
+<img width="400" src="https://user-images.githubusercontent.com/46617803/59864925-c6d07700-93c2-11e9-90a2-bbe85cb5427b.png">
+<img width="400" src="https://user-images.githubusercontent.com/46617803/59864929-c801a400-93c2-11e9-917b-cfd1e7710b8a.png">
 </p>
 </div>
 
