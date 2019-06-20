@@ -89,7 +89,7 @@ Respiratory Diseases Classification Using Audio Data
 ## 추가작업
 
 <p align="center">
-<img width="400" src="https://user-images.githubusercontent.com/46617803/59861489-dd270480-93bb-11e9-844b-008ea200264f.png">
+<img width="300" src="https://user-images.githubusercontent.com/46617803/59861489-dd270480-93bb-11e9-844b-008ea200264f.png">
 </p>
 
 * SVM(Support Vector Machine) 학습 진행 - [[Code]()]
