@@ -108,13 +108,13 @@ Respiratory Diseases Classification Using Audio Data
 사용한 커널에 따라 다른 정확도를 보인다.
 </p>
 
-* 피쳐추출
+* 피쳐추출 - 설명
   * 다중 필터 적용 - [[Code]()]
 
-* 차원축소
+* 차원축소 - 이유
   * 
 
-* C, G 값 설정
+* C, G 값 설정 - 우리꺼 그래프 가져오기, rbf 이유
   * SVM에서 Over fitting을 막기 위해서는 Parameter인 C, gamma, kernel paramter를 잘 조절해야 합니다. C 값은 
   * kernel을 rbf로 사용하게 될 경우 training data set의 수를 줄여 먼저 C parameter 값을 최적화 시키고 그 다음 원래 training data set을 가지고 fitting 시키면 최적화된 SVM을 얻습니다.
 
