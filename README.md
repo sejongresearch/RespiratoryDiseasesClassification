@@ -32,13 +32,6 @@ Respiratory Diseases Classification Using Audio Data
 * STFT Filter
   * 데이터에서 시간에 대해 구간을 짧게 나누어 나누어진 여러 구간의 데이터를 각각 Fourier Transform 하는 방법 - 참고자료
 
-<div>
-<p align="center">
-<img width="250" src="https://user-images.githubusercontent.com/46617803/59761766-9f997d00-92d0-11e9-872c-c91f694e1bd4.png">
-<img width="250" src="https://user-images.githubusercontent.com/46617803/59761767-a0caaa00-92d0-11e9-9f3c-730bda576c2b.png">
-<img width="250" src="https://user-images.githubusercontent.com/46617803/59761767-a0caaa00-92d0-11e9-9f3c-730bda576c2b.png">
-</p>
-</div>
   
 * MFCC Filter
   * MFCC 설명 - 참고자료
@@ -53,6 +46,14 @@ Respiratory Diseases Classification Using Audio Data
 * MFCC Delta Filter
   * MFCC Delta 설명 - 참고자료
   * 이미지
+  <div>
+<p align="center">
+<img width="250" src="https://user-images.githubusercontent.com/46617803/59761766-9f997d00-92d0-11e9-872c-c91f694e1bd4.png">
+<img width="250" src="https://user-images.githubusercontent.com/46617803/59761767-a0caaa00-92d0-11e9-9f3c-730bda576c2b.png">
+<img width="250" src="https://user-images.githubusercontent.com/46617803/59761767-a0caaa00-92d0-11e9-9f3c-730bda576c2b.png">
+</p>
+</div>
+  
 
 * 이미지 생성 모듈화 - [[Code]()] //오류안난 것으로 업로드 할 것
   * CNN 학습에 필요한 이미지를 자동 생성하도록 모듈화 시켰습니다. 이미지를 자동 생성하기 위해선 Wav 폴더에 해당 음원 파일을 넣고 파일에 대한 정보를 CSV 파일에 갱신해주는 작업이 필요합니다. 이후 원하는 필터를 선택해 코드를 실행하면 설정된 비율에 따라 자동으로 Train, Test 폴더에 라벨링된 이미지들이 생성됩니다.
