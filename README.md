@@ -82,8 +82,14 @@ Respiratory Diseases Classification Using Audio Data
 
 ## 학습과정
   
-* CNN 학습 진행 - [[Code]()]
-  * 920개 호흡 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도
+* CNN 학습 진행(이미지 파일로 올릴 예정)
+  * 질병 유무 판단 -> .ipynb 파일로 올릴 예정.[[Code]()]  
+  * 질병 분류 작업 -> .ipynb 파일로 올릴 예정.[[Code]()]  
+  
+        * MFCC(8:2 학습비율/3layer)
+          * 186개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도(56X56)
+          * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 96% 정확도(112X112)
+   
   * layer 개수, Learning_rate, batch_size, train_test rate 변경해가며 정확도 측정 (예정)
 * 질병 유무 판단 - [[Code]()]
 * 질병 분류 작업 - [[Code]()]
@@ -131,10 +137,30 @@ Respiratory Diseases Classification Using Audio Data
 사용한 커널에 따라 다른 정확도가 나타남.
 </p>
 
-* 피쳐추출 - 설명
-  * 다중 필터 적용 - [[Code]()]
+* 피쳐추출 - [[Code]()]
+  * librosa.feature를 통해 음원의 특징을 추출하였습니다. 특징 추출에는 MFCC, zero_crossing_rate, spectral_rolloff, spectral_centriod, spectral_contrast, spectral_bandwidth 등 총 6가지 방식이 사용되었습니다. 각 음원파일마다 6가지 특징을 뽑아내어 정규화시킨 후 [numpy.hstack](https://docs.scipy.org/doc/numpy/reference/generated/numpy.hstack.html)을 이용해 특징을 정렬하여 [pd.Series](https://magnking.blog.me/221333137412)로 묶어 반환하도록 하였습니다.
+  * 피쳐추출별 설명
+<div>
+<p align="center">
+<img width="250" src="https://user-images.githubusercontent.com/46617803/59902749-0c7c5680-943a-11e9-89bb-b72fdeb1b6dd.png">
+<img width="250" src="https://user-images.githubusercontent.com/46617803/59902751-0dad8380-943a-11e9-830d-6c0202ba04a0.png">
+<img width="250" src="https://user-images.githubusercontent.com/46617803/59902753-0f774700-943a-11e9-95c8-0fa5b477efd3.png">
+</p>
+</div>
 
-* 차원축소 - 이유
+  <div>
+<p align="center">
+<img width="250" src="https://user-images.githubusercontent.com/46617803/59902755-10a87400-943a-11e9-9091-022c28450acf.png">
+<img width="250" src="https://user-images.githubusercontent.com/46617803/59902756-11d9a100-943a-11e9-9bf4-364316a203b0.png">
+<img width="250" src="https://user-images.githubusercontent.com/46617803/59902761-12723780-943a-11e9-8ef0-8da20c70d673.png">
+</p>
+</div>
+
+
+* 차원축소
+  * 특징이 많으면 기계학습 모델이 잘 훈련되지 않거나 과적합을 일으키고, 훈련된 모델을 해석하여 용이한 정보를 얻기 힘듬. 또한 고차원 데이터는 시각화가 불가능하기에 분석결과를 공유하는 것 또한 쉽지 않음.
+  * 차원을 줄이는 방법은 크게 특징 선택(feature selection)과 특징 추출(feature extraction)으로 구분. 특징 선택은 전문가 지식이나 데이터 밖의 데이터를 이용하여 일부를 골라내는 작업이고, 특징 추출은 주어진 특징들을 조합하여 새로운 특징값을 계산하는 작업.
+  * 특징 추출의 보편적인 방법 주성분분석(PCA) 방법을 사용
   
 
 * C, G 값 설정 - 우리꺼 그래프 가져오기, rbf 이유
