@@ -95,6 +95,12 @@ Respiratory Diseases Classification Using Audio Data
         * MFCC+delta(8:2 학습비율/3 layers)
           * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 97% 정확도(112X112) - 질병 유무  
           * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 88% 정확도(112X112) - 질병 분류
+          
+  * 8:2 비율의 training_rate를 9:1, 7:3 비율로 바꾸어서 적용.
+	 * 9:1(질병 유무, 질병 여부 분류로 나눔)
+	 * 7:3(질병 유무, 질병 여부 분류로 나눔)
+	 ** 결과는 큰 변화 없음 (결과에 대한 파일도 전송예정) image 파일 예정
+
                                                                    
    
   * layer 개수, Learning_rate, batch_size, train_test rate 변경해가며 정확도 측정 (예정)
@@ -135,14 +141,6 @@ Respiratory Diseases Classification Using Audio Data
 
         * 장점 : SVM는 차원 수 > 데이터 수 인 경우 효과적.   
         * 단점 : 데이터가 너무 많으면 속도가 느리고 메모리 소모가 커짐.
-
-<p align="center">
-<img width="400" src="https://user-images.githubusercontent.com/46617803/59865181-655cd800-93c3-11e9-969e-e856405d6130.png">
-</p>
-
-<p align="center">
-사용한 커널에 따라 다른 정확도가 나타남.
-</p>
 
 * 피쳐추출 
   * librosa.feature를 통해 음원의 특징을 추출하였습니다. 특징 추출에는 MFCC, zero_crossing_rate, spectral_rolloff, spectral_centriod, spectral_contrast, spectral_bandwidth 등 총 6가지 방식이 사용되었습니다. 각 음원파일마다 6가지 특징을 뽑아내어 정규화시킨 후 [numpy.hstack](https://docs.scipy.org/doc/numpy/reference/generated/numpy.hstack.html)을 이용해 특징을 정렬하여 [pd.Series](https://magnking.blog.me/221333137412)로 묶어 반환하도록 하였습니다.
