@@ -94,16 +94,16 @@ Respiratory Diseases Classification Using Audio Data
            * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 96% 정확도(56X56)          
            * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 86% 정확도(28X28)           
          * MFCC+delta  
-           * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 97% 정확도(112X112)      
-           * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 96% 정확도(56X56)   
-           * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 86% 정확도(28X28)  
+           * 920개 음성파일 MFCC+delta를 통한 Feature 추출 후 CNN 학습 진행 > 약 97% 정확도(112X112)      
+           * 920개 음성파일 MFCC+delta를 통한 Feature 추출 후 CNN 학습 진행 > 약 96% 정확도(56X56)   
+           * 920개 음성파일 MFCC+delta를 통한 Feature 추출 후 CNN 학습 진행 > 약 86% 정확도(28X28)  
 	   
    * 질병 분류(8:2 학습비율/3 layers)
         
          * MFCC    
            * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 86% 정확도(112X112)    
          * MFCC+delta  
-           * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 88% 정확도(112X112)  
+           * 920개 음성파일 MFCC+delta를 통한 Feature 추출 후 CNN 학습 진행 > 약 88% 정확도(112X112)  
 	 
 
           
