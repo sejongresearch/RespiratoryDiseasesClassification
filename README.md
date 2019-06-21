@@ -129,7 +129,8 @@ Respiratory Diseases Classification Using Audio Data
 
 * C, G 값 설정 - 우리꺼 그래프 가져오기, rbf 이유
   * SVM에서 Over fitting을 막기 위해서는 Parameter인 C, gamma, kernel paramter 값들 조절 필요. 
-  * C 값은 kernel을 rbf로 사용하게 될 경우 training data set의 수를 줄여 먼저 C parameter 값을 최적화 시키고 그 다음 원래 training data set을 가지고 fitting 시키면 최적화된 SVM을 얻습니다.
+  * C 값은 kernel을 rbf로 사용하게 될 경우 training data set의 수를 줄여 먼저 C parameter 값을 최적화. 
+  * 그 후 원래 training data set을 가지고 fitting 시켜 최적화된 SVM의 결과를 획득.
 
 <div>
 <p align="center">
@@ -143,7 +144,8 @@ Respiratory Diseases Classification Using Audio Data
 * 질병 분류 작업 결과 - [[Code]()]
 
 * 결론
-  * CNN 학습대비 더 적은 데이터로도 높은 분류 정확도를 보였습니다. 하지만 데이터가 많아질 경우 ~~단점을 보임.
+  * CNN 학습대비 더 적은 데이터로도 높은 분류 정확도를 보임. 
+  * 하지만 데이터가 많아질 경우 ~~단점을 보임.
 ---
 
   * [자료정리중](https://blog.naver.com/slykid/221183951057)[자료정리중2](https://blog.naver.com/genesis717/220657502933)
