@@ -56,9 +56,9 @@ Respiratory Diseases Classification Using Audio Data
   * MFCC Delta 설명 - 참고자료
   <div>
 <p align="center">
-<img width="250" src="https://user-images.githubusercontent.com/48382704/59901168-5a429000-9435-11e9-89d0-a79eceae5142.png">
-<img width="250" src="https://user-images.githubusercontent.com/48382704/59901172-5ca4ea00-9435-11e9-8e23-14204306c857.png">
-<img width="250" src="https://user-images.githubusercontent.com/48382704/59901173-5dd61700-9435-11e9-9dcf-9f6076ab2a9c.png)">
+<img width="250" src="https://user-images.githubusercontent.com/48382704/59901019-ee602780-9434-11e9-8dfd-437d2bfa47c0.png">
+<img width="250" src="https://user-images.githubusercontent.com/46617803/59761766-9f997d00-92d0-11e9-872c-c91f694e1bd4.png">
+<img width="250" src="https://user-images.githubusercontent.com/46617803/59761767-a0caaa00-92d0-11e9-9f3c-730bda576c2b.png">
 </p>
 </div>
   
