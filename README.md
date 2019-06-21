@@ -29,9 +29,10 @@ Respiratory Diseases Classification Using Audio Data
 
 ## 데이터 전처리
 
-* STFT Filter
+* STFT(Short-Time Fourier Transform) Filter
+  *Fourier Transform이란?
   * 데이터에서 시간에 대해 구간을 짧게 나누어 나누어진 여러 구간의 데이터를 각각 Fourier Transform 하는 방법 - 참고자료
-  
+      
 
   
 * MFCC Filter
