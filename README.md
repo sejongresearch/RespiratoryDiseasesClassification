@@ -104,7 +104,7 @@ Respiratory Diseases Classification Using Audio Data
 	 * 7:3(질병 유무, 질병 여부 분류로 나눔)  
 	 * 결과는 큰 변화 없음 (결과에 대한 파일도 전송예정) image 파일 예정
 	 
- * MFCC, MFCC_delta feature 추출값들을 56X56, 28X28, 14X14로 3개로 추가하여 사용
+  * MFCC, MFCC_delta feature 추출값들을 56X56, 28X28, 14X14로 3개로 추가하여 사용
 	 * 56X56(질병 유무 판단 결과, 분류 작업 결과)
 	 * 28X28(질병 유무 판단 결과, 분류 작업 결과)
 	 * 14X14(질병 유무 판단 결과, 분류 작업 결과)
