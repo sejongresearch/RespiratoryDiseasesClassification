@@ -58,7 +58,7 @@ Respiratory Diseases Classification Using Audio Data
 <p align="center">
 <img width="250" src="https://user-images.githubusercontent.com/46617803/59761766-9f997d00-92d0-11e9-872c-c91f694e1bd4.png">
 <img width="250" src="https://user-images.githubusercontent.com/46617803/59761767-a0caaa00-92d0-11e9-9f3c-730bda576c2b.png">
-<img width="250" src="https://user-images.githubusercontent.com/46617803/59761767-a0caaa00-92d0-11e9-9f3c-730bda576c2b.png">
+<img width="250" src="https://user-images.githubusercontent.com/48382704/59901019-ee602780-9434-11e9-8dfd-437d2bfa47c0.png">
 </p>
 </div>
   
