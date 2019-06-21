@@ -54,7 +54,8 @@ Respiratory Diseases Classification Using Audio Data
 </div>
 
 * MFCC Delta Filter
-  * MFCC Delta 설명 - 참고자료
+  * MFCC필터에서 성능을 올리기 위한 추가적인 방법.(약 20%정도의 성능이 올라감.)
+  * 기존의 12개의 계수에, 길이가 24인 피쳐 벡터를 결합하여 12 개의 델타 계수를 구함.
   <div>
 <p align="center">
 <img width="250" src="https://user-images.githubusercontent.com/48382704/59901019-ee602780-9434-11e9-8dfd-437d2bfa47c0.png">
