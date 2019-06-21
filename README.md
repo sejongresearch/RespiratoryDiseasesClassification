@@ -32,7 +32,8 @@ Respiratory Diseases Classification Using Audio Data
 * STFT(Short-Time Fourier Transform) Filter([참고자료](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/07.%20Reference/STFT.pdf))
   * FT(Fourier Transform)을 실제 녹음된(유한의) 소리에 적용하기 위해 만든 것.  
   * 데이터에서 시간에 대해 구간을 짧게 나누어 나누어진 여러 구간의 데이터를 각각 FT(Fourier Transform)적용.  
-         * FT(Fourier Transform)이란?  
+        
+        * FT(Fourier Transform)이란?  
          * 'frequency domain의 함수','하나의 함수를 다른 함수로 변환하는 과정'.  
          * 연속시간의 아날로그 파형을 infinite Fourier series(무한 퓨리에 급수)의 합으로 만드는 것.  
          * infinite Fourier series는 특정 amp와 phase를 가지는 사인파로 변환.  
