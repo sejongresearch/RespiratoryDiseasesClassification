@@ -98,7 +98,7 @@ Respiratory Diseases Classification Using Audio Data
           
   * 8:2 비율의 training_rate를 9:1, 7:3 비율로 바꾸어서 적용.
 	 * 9:1(질병 유무, 질병 여부 분류로 나눔)
-	 * 7:3(질병 유무, 질병 여부 분류로 나눔)
+	 * 7:3(질병 유무, 질병 여부 분류로 나눔)  
 	 ** 결과는 큰 변화 없음 (결과에 대한 파일도 전송예정) image 파일 예정
 
                                                                    
