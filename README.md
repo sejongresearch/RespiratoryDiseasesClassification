@@ -86,9 +86,16 @@ Respiratory Diseases Classification Using Audio Data
   * 질병 유무 판단 -> .ipynb 파일로 올릴 예정.[[Code]()]  
   * 질병 분류 작업 -> .ipynb 파일로 올릴 예정.[[Code]()]  
   
-        * MFCC(8:2 학습비율/3layer)
-          * 186개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도(56X56)
-          * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 96% 정확도(112X112)
+        * MFCC(8:2 학습비율/3 layers)
+          * 186개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도(56X56) - 질병 유무
+          * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 96% 정확도(112X112) - 질병 유무  
+          * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 86% 정확도(112X112) - 질병 분류 
+      
+      
+        * MFCC+delta(8:2 학습비율/3 layers)
+          * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 97% 정확도(112X112) - 질병 유무  
+          * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 88% 정확도(112X112) - 질병 분류
+                                                                   
    
   * layer 개수, Learning_rate, batch_size, train_test rate 변경해가며 정확도 측정 (예정)
 * 질병 유무 판단 - [[Code]()]
@@ -117,7 +124,7 @@ Respiratory Diseases Classification Using Audio Data
 <img width="300" src="https://user-images.githubusercontent.com/46617803/59861489-dd270480-93bb-11e9-844b-008ea200264f.png">
 </p>
 
-* SVM(Support Vector Machine) 학습 진행 - [[Code]()]
+* SVM(Support Vector Machine) 학습 진행 
 
   * 지도 학습 방식의 대표 분류 기법인 SVM을 사용. 
   * SVM은 데이터를 벡터공간으로 표현 후 서포터 벡터(각 분류의 경계선에 가장 가까이 있는 벡터)간의 거리를 최대화하여 데이터들을 분류.
@@ -137,7 +144,7 @@ Respiratory Diseases Classification Using Audio Data
 사용한 커널에 따라 다른 정확도가 나타남.
 </p>
 
-* 피쳐추출 - [[Code]()]
+* 피쳐추출 
   * librosa.feature를 통해 음원의 특징을 추출하였습니다. 특징 추출에는 MFCC, zero_crossing_rate, spectral_rolloff, spectral_centriod, spectral_contrast, spectral_bandwidth 등 총 6가지 방식이 사용되었습니다. 각 음원파일마다 6가지 특징을 뽑아내어 정규화시킨 후 [numpy.hstack](https://docs.scipy.org/doc/numpy/reference/generated/numpy.hstack.html)을 이용해 특징을 정렬하여 [pd.Series](https://magnking.blog.me/221333137412)로 묶어 반환하도록 하였습니다.
   * 피쳐추출별 설명
 <div>
