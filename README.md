@@ -87,7 +87,8 @@ Respiratory Diseases Classification Using Audio Data
   * 질병 분류 작업 -> .ipynb 파일로 올릴 예정.[[Code]()]  
     
    * 질병 유무(8:2 학습비율/3 layers)
-         * MFCC
+   
+          * MFCC  
              * 186개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도(56X56)  
              * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 97% 정확도(112X112)     
 	     * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 96% 정확도(56X56)      
