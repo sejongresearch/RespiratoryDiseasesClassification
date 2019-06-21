@@ -30,12 +30,12 @@ Respiratory Diseases Classification Using Audio Data
 ## 데이터 전처리
 
 * STFT(Short-Time Fourier Transform) Filter([참고자료](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/07.%20Reference/STFT.pdf))
-  * FT(Fourier Transform)을 실제 녹음된(유한의) 소리에 적용하기 위해 만든 것.
-  * 데이터에서 시간에 대해 구간을 짧게 나누어 나누어진 여러 구간의 데이터를 각각 FT(Fourier Transform)적용.
+  * FT(Fourier Transform)을 실제 녹음된(유한의) 소리에 적용하기 위해 만든 것.  
+  * 데이터에서 시간에 대해 구간을 짧게 나누어 나누어진 여러 구간의 데이터를 각각 FT(Fourier Transform)적용.  
          * FT(Fourier Transform)이란?  
-         * 'frequency domain의 함수','하나의 함수를 다른 함수로 변환하는 과정'이라는 두가지 의미.  
+         * 'frequency domain의 함수','하나의 함수를 다른 함수로 변환하는 과정'.  
          * 연속시간의 아날로그 파형을 infinite Fourier series(무한 퓨리에 급수)의 합으로 만드는 것.  
-         * infinite Fourier series는 특정 amp와 phase를 가지는 사인파로 만들어짐.  
+         * infinite Fourier series는 특정 amp와 phase를 가지는 사인파로 변환.  
          * 입력 신호를 대응하는 스펙트럼으로 전환.  
       
 
@@ -63,7 +63,9 @@ Respiratory Diseases Classification Using Audio Data
   
 
 * 이미지 생성 모듈화 - [[Code]()] //오류안난 것으로 업로드 할 것
-  * CNN 학습에 필요한 이미지를 자동 생성하도록 모듈화 시켰습니다. 이미지를 자동 생성하기 위해선 Wav 폴더에 해당 음원 파일을 넣고 파일에 대한 정보를 CSV 파일에 갱신해주는 작업이 필요합니다. 이후 원하는 필터를 선택해 코드를 실행하면 설정된 비율에 따라 자동으로 Train, Test 폴더에 라벨링된 이미지들이 생성됩니다.
+  * CNN 학습에 필요한 이미지를 자동 생성하도록 모듈화.  
+  * 이미지를 자동 생성하기 위해선 Wav 폴더에 해당 음원 파일을 넣고 파일에 대한 정보를 CSV 파일에 갱신해주는 작업이 필요.  
+  * 이후 원하는 필터를 선택해 코드를 실행하면 설정된 비율에 따라 자동으로 Train, Test 폴더에 라벨링된 이미지들이 생성.
 
 ---
 
@@ -100,9 +102,12 @@ Respiratory Diseases Classification Using Audio Data
 
 * SVM(Support Vector Machine) 학습 진행 - [[Code]()]
 
-  * 지도 학습 방식의 대표 분류 기법인 SVM을 사용했습니다. SVM은 데이터를 벡터공간으로 표현 후 서포터 벡터(각 분류의 경계선에 가장 가까이 있는 벡터)간의 거리를 최대화하여 데이터들을 분류합니다.
+  * 지도 학습 방식의 대표 분류 기법인 SVM을 사용. 
+  * SVM은 데이터를 벡터공간으로 표현 후 서포터 벡터(각 분류의 경계선에 가장 가까이 있는 벡터)간의 거리를 최대화하여 데이터들을 분류.
 
-  * SVM은 선형분류와 더불어 비선형 분류에도 사용됩니다. 비선형 분류를 하기 위해 주어진 데이터를 고차원 특징 공간으로 만드는 작업이 필요합니다. SVM은 kernel function이란 개념을 도입하여 특징 공간을 접어버리거나 꼬아버려 비선형 데이터를 선형으로 분류할 수 있게 만듭니다.
+  * SVM은 선형분류와 더불어 비선형 분류에도 사용.  
+  * 비선형 분류를 하기 위해 주어진 데이터를 고차원 특징 공간으로 만드는 작업이 필요.   
+  * SVM은 kernel function이란 개념을 도입하여 특징 공간을 접어버리거나 꼬아버려 비선형 데이터를 선형으로 분류할 수 있게 만듭니다.
 
   * SVM는 차원 수 > 데이터 수 일대 효과적인 장점이 있습니다. 단점으로는 데이터가 너무 많으면 속도가 느리고 메모리 소모가 크다는 점이 있습니다.
 
