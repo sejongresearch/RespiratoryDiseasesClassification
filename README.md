@@ -37,7 +37,14 @@ Respiratory Diseases Classification Using Audio Data
          * 'frequency domain의 함수','하나의 함수를 다른 함수로 변환하는 과정'.  
          * 연속시간의 아날로그 파형을 infinite Fourier series(무한 퓨리에 급수)의 합으로 만드는 것.  
          * infinite Fourier series는 특정 amp와 phase를 가지는 사인파로 변환.  
-         * 입력 신호를 대응하는 스펙트럼으로 전환.  
+         * 입력 신호를 대응하는 스펙트럼으로 전환.         
+    <div>
+<p align="center">
+<img width="250" src="https://user-images.githubusercontent.com/48382704/59903674-8f061580-943c-11e9-999e-66acb1d8f0eb.png">
+<img width="250" src="https://user-images.githubusercontent.com/48382704/59903677-90374280-943c-11e9-8639-64cd8cf5715c.png">
+<img width="250" src="https://user-images.githubusercontent.com/48382704/59903680-92010600-943c-11e9-8d2f-73d393c64211.png">
+</p>
+</div>
       
 
   
