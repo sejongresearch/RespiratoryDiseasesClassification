@@ -88,16 +88,15 @@ Respiratory Diseases Classification Using Audio Data
     
    * 질병 유무(8:2 학습비율/3 layers)
    
-          * MFCC  
-           * 186개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도(56X56)  
-           * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 97% 정확도(112X112)     
-	   * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 96% 정확도(56X56)          
-           * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 86% 정확도(28X28)        
-	   
+         * MFCC  
+         * 186개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도(56X56)  
+         * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 97% 정확도(112X112)     
+	 * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 96% 정확도(56X56)          
+         * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 86% 정확도(28X28)           
          * MFCC+delta  
-           * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 97% 정확도(112X112)      
-	   * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 96% 정확도(56X56)   
-	   * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 86% 정확도(28X28)  
+         * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 97% 정확도(112X112)      
+	 * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 96% 정확도(56X56)   
+	 * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 86% 정확도(28X28)  
 
           
   * 8:2 비율의 training_rate를 9:1, 7:3 비율로 바꾸어서 적용.
@@ -179,18 +178,12 @@ Respiratory Diseases Classification Using Audio Data
   * 차원을 줄이는 방법은 크게 특징 선택(feature selection)과 특징 추출(feature extraction)으로 구분. 특징 선택은 전문가 지식이나 데이터 밖의 데이터를 이용하여 일부를 골라내는 작업이고, 특징 추출은 주어진 특징들을 조합하여 새로운 특징값을 계산하는 작업.
   * 특징 추출의 보편적인 방법 주성분분석(PCA) 방법을 사용
   
-
-* C, G 값 설정 - 우리꺼 그래프 가져오기, rbf 이유
-  * SVM에서 Over fitting을 막기 위해서는 Parameter인 C, gamma, kernel paramter 값들 조절 필요. 
-  * C 값은 kernel을 rbf로 사용하게 될 경우 training data set의 수를 줄여 먼저 C parameter 값을 최적화. 
-  * 그 후 원래 training data set을 가지고 fitting 시켜 최적화된 SVM의 결과를 획득.
-
-<div>
-<p align="center">
-<img width="400" src="https://user-images.githubusercontent.com/46617803/59864925-c6d07700-93c2-11e9-90a2-bbe85cb5427b.png">
-<img width="400" src="https://user-images.githubusercontent.com/46617803/59864929-c801a400-93c2-11e9-917b-cfd1e7710b8a.png">
-</p>
-</div>
+* RBF 커널 사용
+  * 선형에서 구분하지 못하는 구조를 rbf kernel을 사용해 데이터 변환
+  * Over fitting을 막기 위해서는 Cost, Gamma 값들의 조절이 필요. 
+  * C의 값이 작을때는 제약이 큰 모델을 만들고 각 포인트의 영향력이 작음, 반대로 C값이 증가할수록 각 포인트들이 모델에 큰 영향을 주며 결정 경계를 휘어서 정확하게 분류.
+  * Gamma 값이 커짐에 따라 결정 경계는 하나의 포인트에 더 민감해진다.
+  * C 값은 kernel을 rbf로 사용하게 될 경우 training data set의 수를 줄여 먼저 C parameter 값을 최적화. 그 후 원래 training data set을 가지고 fitting 시켜 최적화된 SVM의 결과를 획득
 
 * 질병 유무 판단 결과 - [[Code]()]
 
