@@ -40,7 +40,7 @@ Respiratory Diseases Classification Using Audio Data
          * 입력 신호를 대응하는 스펙트럼으로 전환.         
     <div>
 <p align="center">
-<img width="250" src="https://user-images.githubusercontent.com/48382704/59903930-3daa5600-943d-11e9-9c27-95d74c0c76a6.png>
+<img width="250" src="https://user-images.githubusercontent.com/48382704/59903930-3daa5600-943d-11e9-9c27-95d74c0c76a6.png">
 <img width="250" src="https://user-images.githubusercontent.com/48382704/59903938-41d67380-943d-11e9-9e1a-ae1d24b6c517.png">
 <img width="250" src="https://user-images.githubusercontent.com/48382704/59903942-4438cd80-943d-11e9-8e7d-5605e47e6d9b.png">
 
