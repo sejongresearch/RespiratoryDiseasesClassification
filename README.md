@@ -46,9 +46,9 @@ Respiratory Diseases Classification Using Audio Data
   * 특징을 추출하기 위해 단계별로 진행됨[[참고자료](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/03.%20Feature%20extraction/MFCC%EB%9E%80.docx)]
   <div>
 <p align="center">
-<img width="250" src="https://user-images.githubusercontent.com/48382704/59762719-db354680-92d2-11e9-975e-c0e3d6c8ccba.png">
-<img width="250" src="https://user-images.githubusercontent.com/48382704/59762731-dec8cd80-92d2-11e9-9b9a-c855c969862b.png">
-<img width="250" src="https://user-images.githubusercontent.com/48382704/59762755-e8eacc00-92d2-11e9-9f5e-6c1a80cf71c5.png">
+<img width="250" src="https://user-images.githubusercontent.com/48382704/59901168-5a429000-9435-11e9-89d0-a79eceae5142.png">
+<img width="250" src="https://user-images.githubusercontent.com/48382704/59901172-5ca4ea00-9435-11e9-8e23-14204306c857.png">
+<img width="250" src="https://user-images.githubusercontent.com/48382704/59901173-5dd61700-9435-11e9-9dcf-9f6076ab2a9c.png">
 </p>
 </div>
 
