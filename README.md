@@ -29,7 +29,7 @@ Respiratory Diseases Classification Using Audio Data
 
 ## 데이터 전처리
 
-* STFT(Short-Time Fourier Transform) Filter([참고자료](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/07.%20Reference/STFT.pdf))
+* STFT(Short-Time Fourier Transform) Filter[[참고자료](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/07.%20Reference/STFT.pdf)]
   * FT(Fourier Transform)을 실제 녹음된(유한의) 소리에 적용하기 위해 만든 것.  
   * 데이터에서 시간에 대해 구간을 짧게 나누어 나누어진 여러 구간의 데이터를 각각 FT(Fourier Transform)적용.  
         
