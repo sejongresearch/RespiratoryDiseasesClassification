@@ -73,7 +73,7 @@ Respiratory Diseases Classification Using Audio Data
 </div>
   
 
-* 이미지 생성 모듈화 - [[Code]()] //오류안난 것으로 업로드 할 것
+* 이미지 생성 모듈화 - [[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/03.%20Feature%20extraction/Respiratory_Sound_Feature_save.ipynb)] 
   * CNN 학습에 필요한 이미지를 자동 생성하도록 모듈화.  
   * 이미지를 자동 생성하기 위해선 Wav 폴더에 해당 음원 파일을 넣고 파일에 대한 정보를 CSV 파일에 갱신해주는 작업이 필요.  
   * 이후 원하는 필터를 선택해 코드를 실행하면 설정된 비율에 따라 자동으로 Train, Test 폴더에 라벨링된 이미지들이 생성.
