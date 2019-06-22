@@ -193,8 +193,11 @@ Respiratory Diseases Classification Using Audio Data
   * Gamma 값이 커짐에 따라 결정 경계는 하나의 포인트에 더 민감해진다.
   * C 값은 kernel을 rbf로 사용하게 될 경우 training data set의 수를 줄여 먼저 C parameter 값을 최적화. 그 후 원래 training data set을 가지고 fitting 시켜 최적화된 SVM의 결과를 획득
 
-* 질병 유무 판단 결과  
 
+* 정확도 측정
+  * 85개의 데이터셋을 기준으로 Train data 개수를 100개, 200개, 400개로 바꿔가며 정확도를 측정하였습니다. 각 실행마다 C, G값은 가장 높은 정확도를 나타내는 값으로 설정하여 진행하였습니다.
+  
+* 질병 유무 판단 결과  
 Train Data 수 | 정확도 | Code
 :---:|:---:|:---:|
 100 개|0.95%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_100_85_95.ipynb)]
