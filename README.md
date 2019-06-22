@@ -82,9 +82,11 @@ Respiratory Diseases Classification Using Audio Data
 
 ## 학습과정
   
-* CNN 학습 진행(이미지 파일로 올릴 예정)
-  * 질병 유무 판단 -> .ipynb 파일로 올릴 예정.[[Code]()]  
-  * 질병 분류 작업 -> .ipynb 파일로 올릴 예정.[[Code]()]  
+* CNN 학습 진행
+
+<p align="center">
+<img width="250" src="https://user-images.githubusercontent.com/46617803/59962802-352d4a80-9525-11e9-80a2-0f3c2e4c734e.png">
+</p>
     
    * 질병 유무(8:2 학습비율/3 layers)
    
@@ -110,36 +112,26 @@ Respiratory Diseases Classification Using Audio Data
   * 8:2 비율의 training_rate를 9:1, 7:3 비율로 바꾸어서 적용.
 	 * 9:1(질병 유무, 질병 여부 분류로 나눔)
 	 * 7:3(질병 유무, 질병 여부 분류로 나눔)  
-	 * 결과는 큰 변화 없음 (결과에 대한 파일도 전송예정) image 파일 예정
 	 
   * MFCC, MFCC_delta feature 추출값들을 56X56, 28X28, 14X14로 3개로 추가하여 사용
 	 * 56X56(질병 유무 판단 결과, 분류 작업 결과)
 	 * 28X28(질병 유무 판단 결과, 분류 작업 결과)
 	 * 14X14(질병 유무 판단 결과, 분류 작업 결과)
-	 * 결과는 큰 변화 없음 (결과에 대한 파일도 전송예정) [[CODE]()]
 	 
-
-
-                                                                   
-   
-  * layer 개수, Learning_rate, batch_size, train_test rate 변경해가며 정확도 측정 (예정)
-* 질병 유무 판단 - [[Code]()]
-* 질병 분류 작업 - [[Code]()]
-  * 학습모델 이미지
-
 ---
 
 ## 검증
 
-* Train Data와 Test Data 8:2 비율로 질분 유무, 분류 작업 진행
-  * 920개 호흡 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 72% 정확도
+* layer 개수, Learning_rate, batch_size, train_test rate 변경해가며 정확도 측정 
+
 
 * 질병 유무 판단 결과 
   * 128X128 사이즈, 64X64 사이즈
+  
+  
 * 질병 분류 작업 결과
   * 128X128 사이즈, 64X64 사이즈
 
-* 결과 정리후 관련 결과물들 링크처리
 
 ---
 
