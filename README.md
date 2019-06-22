@@ -197,18 +197,18 @@ Respiratory Diseases Classification Using Audio Data
 
 Train Data 수 | 정확도 | Code
 :---:|:---:|:---:|
-100 개|0.95%|[[Code]()]
-200 개|ㄴㅇㄹ|[[Code]()]
+100 개|0.95%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_100_85_95.ipynb)]
+200 개|ㄴㅇㄹ|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_200_1.ipynb)]
 
 
 * 질병 분류 작업 결과  
 
  Train Data 수 | 정확도| Code 
  :---:|:---:|:---:|
- 100 개|0.95%|[[Code]()]
- 200 개|0.95%|[[Code]()]
- 300 개|0.95%|[[Code]()]
- 400 개|0.95%|[[Code]()]
+ 100 개|0.85%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi%20100_85_85.ipynb)]
+ 200 개|0.95%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi%20200_85_95.ipynb)]
+ 300 개|0.95%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi_300_85_95.ipynb)]
+ 400 개|0.95%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi_400_85_93..ipynb)]
  
  
 * 결론
