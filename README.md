@@ -195,22 +195,18 @@ Respiratory Diseases Classification Using Audio Data
 
 
 * 질병 유무 판단 결과  
-<p align="center">
  Train Data 수 | 정확도 | Code
 :---:|:---:|:---:|
 100 개|0.95%|[[Code]()]
 200 개|ㄴㅇㄹ|[[Code]()]
-</p>
 	
 * 질병 분류 작업 결과  
-<p align="center">
  Train Data 수 | 정확도| Code
  :---:|:---:|:---:|
  100 개|0.85%|[[Code]()]
  200 개|0.95%|[[Code]()]
  300 개|0.95%|[[Code]()]
  400 개|0.95%|[[Code]()]
-</p>
 * 결론
   * CNN 학습대비 더 적은 데이터로도 높은 분류 정확도를 보임. 
   * 하지만 데이터가 많아질 경우 ~~단점을 보임.
