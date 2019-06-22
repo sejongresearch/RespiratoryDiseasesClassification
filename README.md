@@ -29,7 +29,7 @@ Respiratory Diseases Classification Using Audio Data
 
 ## 데이터 전처리
 
-* STFT(Short-Time Fourier Transform) Filter[[참고자료](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/07.%20Reference/STFT.pdf)]
+* STFT(Short-Time Fourier Transform) Filter - [[참고자료](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/07.%20Reference/STFT.pdf)]
   * FT(Fourier Transform)을 실제 녹음된(유한의) 소리에 적용하기 위해 만든 것.  
   * 데이터에서 시간에 대해 구간을 짧게 나누어 나누어진 여러 구간의 데이터를 각각 FT(Fourier Transform)적용.  
         
@@ -51,7 +51,7 @@ Respiratory Diseases Classification Using Audio Data
   
 * MFCC Filter(Mel-Frequency-Cepstral Coefficent)
   * 입력된 소리 전체를 대상으로 하는 것이 아닌 일정 구간(Short time)으로 나누어, 이 구간에 대한 스펙트럼을 분석하여 특징을 추출. 
-  * 특징을 추출하기 위해 6단계로 진행됨[[단계별 특징추출](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/03.%20Feature%20extraction/MFCC%EB%9E%80.docx)]
+  * 특징을 추출하기 위해 6단계로 진행됨 - [[단계별 특징추출](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/03.%20Feature%20extraction/MFCC%EB%9E%80.docx)]
   * 6단계가 끝나면 12~13개의 Coefficient들을 얻을 수 있음.(Mel Frequency Cepstral Coefficient)
   <div>
 <p align="center">
