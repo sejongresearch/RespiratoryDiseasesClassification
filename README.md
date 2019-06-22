@@ -200,7 +200,8 @@ Respiratory Diseases Classification Using Audio Data
  100 개|0.95%|[[Code]()]
  200 개|ㄴㅇㄹ|[[Code]()]
   
-* 질병 분류 작업 결과
+* 질병 분류 작업 결과  
+
   Train Data 수 | 정확도| Code
   -----|------|------
   100 개|0.85%|[[Code]()]
