@@ -200,7 +200,7 @@ Respiratory Diseases Classification Using Audio Data
   
 * 질병 유무 판단 결과  
 
-Train Data 수 | 정확도 | Code ||
+Train Data 수 | 정확도 | Code 
 :---:|:---:|:---:|
 100 개|0.95%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_100_85_95.ipynb)]
 200 개|ㄴㅇㄹ|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_200_1.ipynb)]
