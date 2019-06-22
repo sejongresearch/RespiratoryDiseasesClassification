@@ -85,7 +85,7 @@ Respiratory Diseases Classification Using Audio Data
 * CNN 학습 진행
 
 <p align="center">
-<img width="250" src="https://user-images.githubusercontent.com/46617803/59962802-352d4a80-9525-11e9-80a2-0f3c2e4c734e.png">
+<img  src="https://user-images.githubusercontent.com/46617803/59962802-352d4a80-9525-11e9-80a2-0f3c2e4c734e.png">
 </p>
     
    * 질병 유무(8:2 학습비율/3 layers)
@@ -125,14 +125,25 @@ Respiratory Diseases Classification Using Audio Data
 * layer 개수, Learning_rate, batch_size, train_test rate 변경해가며 정확도 측정 
 
 
-* 질병 유무 판단 결과 
-  * 128X128 사이즈, 64X64 사이즈
-  
-  
-* 질병 분류 작업 결과
-  * 128X128 사이즈, 64X64 사이즈
+* 질병 유무 판단 결과  
 
+ Train Data 수 | 정확도| Code 
+ :---:|:---:|:---:|
+ 100 개|0.85%|[[Code]()]
+ 200 개|0.95%|[[Code]()]
+ 300 개|0.95%|[[Code]()]
+ 400 개|0.93%|[[Code]()]
+  
+* 질병 분류 작업 결과  
 
+ Train Data 수 | 정확도| Code 
+ :---:|:---:|:---:|
+ 100 개|0.85%|[[Code]()]
+ 200 개|0.95%|[[Code]()]
+ 300 개|0.95%|[[Code]()]
+ 400 개|0.93%|[[Code]()]
+ 
+ 
 ---
 
 ## 추가작업
