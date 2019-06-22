@@ -166,7 +166,7 @@ Respiratory Diseases Classification Using Audio Data
 
 * 피쳐추출 
   * librosa.feature를 통해 음원의 특징을 추출하였습니다. 특징 추출에는 MFCC, zero_crossing_rate, spectral_rolloff, spectral_centriod, spectral_contrast, spectral_bandwidth 등 총 6가지 방식이 사용되었습니다. 각 음원파일마다 6가지 특징을 뽑아내어 정규화시킨 후 [numpy.hstack](https://docs.scipy.org/doc/numpy/reference/generated/numpy.hstack.html)을 이용해 특징을 정렬하여 [pd.Series](https://magnking.blog.me/221333137412)로 묶어 반환하도록 하였습니다.
-  * Zero crossing rate는 음성 신호의 smoothness를 측정하여 신호를 구별하는 방법이다. 소리에 따라 파형의 형태가 다르기 때문에 smoothness를 측정하여 소리를 구분할 수 있다. Spectral roll off는 스펙트럼 magnitude 분포의 80%가 집중되어 있는 주파수를 나타낸다. 스펙트럼의 형태와 낮은 주파수 영역에 신호의 에너지가 얼마나 집중되어 있는지 보여준다. Spectral Centroid는 STFT의 magnitude 스펙트럼의 중심을 뜻한다. Centroid는 스펙트럼의 형태를 측정하는 방법 중의 하나이다. Spectral Contrast 매 프레임마다 6개의 구역으로 나누어 스펙트럼의 peak, valley의 차이점을 계산한다. Spectral bandwidth는 주파수의 대역폭을 측정하는 방법 중 하나이다.
+  * Zero crossing rate는 음성 신호의 smoothness를 측정하여 신호를 구별하는 방법입니다. 소리에 따라 파형의 형태가 다르기 때문에 smoothness를 측정하여 소리를 구분할 수 있습니다. Spectral roll off는 스펙트럼 magnitude 분포의 80%가 집중되어 있는 주파수를 나타냅니다. 스펙트럼의 형태와 낮은 주파수 영역에 신호의 에너지가 얼마나 집중되어 있는지 보여줍니다. Spectral Centroid는 STFT의 magnitude 스펙트럼의 중심을 뜻합니다. Centroid는 스펙트럼의 형태를 측정하는 방법 중의 하나입니다. Spectral Contrast 매 프레임마다 6개의 구역으로 나누어 스펙트럼의 peak, valley의 차이점을 계산합니다. Spectral bandwidth는 주파수의 대역폭을 측정하는 방법 중 하나입니다.
   
 
 <div>
