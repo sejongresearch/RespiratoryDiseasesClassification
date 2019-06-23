@@ -11,9 +11,10 @@ Respiratory Diseases Classification Using Audio Data
 
 ## 목차 
 - [데이터 전처리](#데이터-전처리)
-- [학습과정](#학습과정)
+- [CNN 학습과정](#학습과정)
 - [검증](#검증)
-- [추가작업](#추가작업)
+- [SVM 학습과정](#SVM-학습과정)
+- [결론](#결론)
 
 ---
 
@@ -159,7 +160,7 @@ Respiratory Diseases Classification Using Audio Data
    * 데이터 셋확보가 매우 중요함
 ---
 
-## 추가작업
+## SVM 
 
 <p align="center">
 <img width="300" src="https://user-images.githubusercontent.com/46617803/59861489-dd270480-93bb-11e9-844b-008ea200264f.png">
