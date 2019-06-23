@@ -120,20 +120,20 @@ Respiratory Diseases Classification Using Audio Data
 	
 	  |Size    |정확도 |   Code  |
  	  |:------:|:----:|:--------:|
-	  | 112X112| 84.9%|[[Code]()]|
-	  |   56X56|85.45%|[[Code]()]|
- 	  |   28X28|85.95%|[[Code]()]|
- 	  |   14X14| 86.3%|[[Code]()]|
+	  | 112X112| 84.9%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/04.%20Training/CNN(shuffle%2Clayer-3%2Cmulti_val%2C9to1%2Cmfcc%2C112X112).ipynb)]|
+	  |   56X56|85.45%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/04.%20Training/CNN(shuffle%2Clayer-3%2Cmulti_val%2C9to1%2Cmfcc%2C56X56).ipynb)]|
+ 	  |   28X28|85.95%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/04.%20Training/CNN(shuffle%2Clayer-3%2Cmulti_val%2C9to1%2Cmfcc%2C28X28).ipynb)]|
+ 	  |   14X14| 86.3%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/04.%20Training/CNN(shuffle%2Clayer-3%2Cmulti_val%2C7to3%2Cmfcc%2C14X14).ipynb)]|
 	  
 	
 	* 7:3(질병 여부 분류)  
 	 
 	  |Size    |정확도 |   Code  |
  	  |:------:|:----:|:--------:|
-	  | 112X112| 84.2%|[[Code]()]|
-	  |   56X56| 89.1%|[[Code]()]|
- 	  |   28X28|   82%|[[Code]()]|
- 	  |   14X14| 83.75%|[[Code]()]|
+	  | 112X112| 84.2%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/04.%20Training/CNN(shuffle%2Clayer-3%2Cmulti_val%2C7to3%2Cmfcc%2C112X112).ipynb)]|
+	  |   56X56| 89.1%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/04.%20Training/CNN(shuffle%2Clayer-3%2Cmulti_val%2C7to3%2Cmfcc%2C56X56).ipynb)]|
+ 	  |   28X28|   82%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/04.%20Training/CNN(shuffle%2Clayer-3%2Cmulti_val%2C7to3%2Cmfcc%2C28X28).ipynb)]|
+ 	  |   14X14| 83.75%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/04.%20Training/CNN(shuffle%2Clayer-3%2Cmulti_val%2C7to3%2Cmfcc%2C14X14).ipynb)]|
 
  * size가 56X56 training_rate 8:2가 가장 높아 비교값으로 사용
  * Learning_rate 변경(mfcc,mfcc_delta 평균)
