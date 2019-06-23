@@ -110,8 +110,19 @@ Respiratory Diseases Classification Using Audio Data
           
   * 8:2 비율의 training_rate를 9:1, 7:3 비율로 바꾸어서 적용.
 	 * 9:1(질병 유무, 질병 여부 분류로 나눔)
+	  Size  |정확도| Code 
+ 	:------:|:----:|:---:|
+	 112X112| 84.9%|[[Code]()]
+	   56X56|85.45%|[[Code]()]
+ 	   28X28|85.95%|[[Code]()]
+ 	   14X14| 86.3%|[[Code]()]
 	 * 7:3(질병 유무, 질병 여부 분류로 나눔)  
-	 
+	  Size  |정확도| Code 
+ 	:------:|:----:|:---:|
+	 112X112| 84.2%|[[Code]()]
+	   56X56| 89.1%|[[Code]()]
+ 	   28X28|   82%|[[Code]()]
+ 	   14X14|83.75%|[[Code]()]
   * MFCC, MFCC_delta feature 추출값들을 56X56, 28X28, 14X14로 3개로 추가하여 사용
 	 * 56X56(질병 유무 판단 결과, 분류 작업 결과)
 	 * 28X28(질병 유무 판단 결과, 분류 작업 결과)
@@ -121,17 +132,11 @@ Respiratory Diseases Classification Using Audio Data
 
 ## 검증
 
-* layer 개수, Learning_rate, batch_size, train_test rate 변경해가며 정확도 측정 
+* Learning_rate, batch_size, train_test rate 변경해가며 정확도 측정 
 
 
-* 질병 유무 판단 결과  
+* Learning_rate 변화 
 
- Train Data 수 | 정확도| Code 
- :---:|:---:|:---:|
- 100 개|0.85%|[[Code]()]
- 200 개|0.95%|[[Code]()]
- 300 개|0.95%|[[Code]()]
- 400 개|0.93%|[[Code]()]
   
 * 질병 분류 작업 결과  
 
@@ -218,10 +223,6 @@ Train Data 수 | 정확도 | Code
  200 개|0.95%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi%20200_85_95.ipynb)]
  300 개|0.95%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi_300_85_95.ipynb)]
  400 개|0.93%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi_400_85_93..ipynb)]
- 500 개|0|[[Code]()]
- 600 개|0|[[Code]()]
- 700 개|0|[[Code]()]
- 800 개|0|[[Code]()]
  
  
 * 결론
