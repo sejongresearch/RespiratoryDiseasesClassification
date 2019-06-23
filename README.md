@@ -63,7 +63,7 @@ Respiratory Diseases Classification Using Audio Data
 
 * MFCC Delta Filter
   * MFCC필터에서 성능을 올리기 위한 추가적인 방법.(약 20%정도의 성능이 올라감.)
-  * MFCC 적용 후 미분을 함으로써 음성의 변화율을 스팩트럼 이미지를 생성. .
+  * MFCC 적용 후 미분을 함으로써 음성의 변화율을 스팩트럼 이미지를 생성.  
   <div>
 <p align="center">
 <img width="250" src="https://user-images.githubusercontent.com/48382704/59901019-ee602780-9434-11e9-8dfd-437d2bfa47c0.png">
