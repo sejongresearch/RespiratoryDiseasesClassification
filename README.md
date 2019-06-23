@@ -218,6 +218,10 @@ Train Data 수 | 정확도 | Code
  200 개|0.95%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi%20200_85_95.ipynb)]
  300 개|0.95%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi_300_85_95.ipynb)]
  400 개|0.93%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi_400_85_93..ipynb)]
+ 500 개|0|[[Code]()]
+ 600 개|0|[[Code]()]
+ 700 개|0|[[Code]()]
+ 800 개|0|[[Code]()]
  
  
 * 결론
