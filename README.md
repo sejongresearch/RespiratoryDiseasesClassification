@@ -230,7 +230,7 @@ Train Data 수 | 정확도 | Code
  500 개|0.89%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi_89%25.ipynb)] 
  600 개|0.93%|[[Code]()] 
  700 개|0.87%|[[Code]()] 
- 800 개|0.89%|[[Code]()]  
+ 800 개|0.87%|[[Code]()]  
  
 * 결론
   * CNN 학습대비 더 적은 데이터로도 높은 분류 정확도를 보임. 
