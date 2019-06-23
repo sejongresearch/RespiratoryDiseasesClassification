@@ -104,12 +104,18 @@ Respiratory Diseases Classification Using Audio Data
          * MFCC    
            * 920개 음성파일 MFCC를 통한 Feature 추출 후 CNN 학습 진행 > 약 86% 정확도(112X112)    
          * MFCC+delta  
-           * 920개 음성파일 MFCC+delta를 통한 Feature 추출 후 CNN 학습 진행 > 약 88% 정확도(112X112)  
+           * 920개 음성파일 MFCC+delta를 통한 Feature 추출 후 CNN 학습 진행 > 약 88% 정확도(112X112)   
+	 * 질병분류 정확도가 낮아 추가적인 검증을 실행 
 	 
+---
 
-          
-  * 8:2 비율의 training_rate를 9:1, 7:3 비율로 바꾸어서 적용.
-	 * 9:1(질병 유무, 질병 여부 분류로 나눔)
+## 검증
+
+*  train_test rate,Learning_rate, batch_size,train, test set 변경해가며 정확도 측정 
+
+
+  * train_test rate 변경(mfcc,mfcc_delta 평균)
+	* 9:1(질병 여부 분류)
 	
 	  |Size    |정확도 |   Code  |
  	  |:------:|:----:|:--------:|
@@ -117,9 +123,9 @@ Respiratory Diseases Classification Using Audio Data
 	  |   56X56|85.45%|[[Code]()]|
  	  |   28X28|85.95%|[[Code]()]|
  	  |   14X14| 86.3%|[[Code]()]|
-	 * 7:3(질병 유무, 질병 여부 분류로 나눔)  
+	  (batch_size = 100 ,learning_rate = 0.001 , layers =3)
+	 * 7:3(질병 여부 분류)  
 	 
-	
 	  |Size    |정확도 |   Code  |
  	  |:------:|:----:|:--------:|
 	  | 112X112| 84.2%|[[Code]()]|
@@ -127,31 +133,28 @@ Respiratory Diseases Classification Using Audio Data
  	  |   28X28|   82%|[[Code]()]|
  	  |   14X14| 83.75%|[[Code]()]|
 
-  * MFCC, MFCC_delta feature 추출값들을 56X56, 28X28, 14X14로 3개로 추가하여 사용
-	 * 56X56(질병 유무 판단 결과, 분류 작업 결과)
-	 * 28X28(질병 유무 판단 결과, 분류 작업 결과)
-	 * 14X14(질병 유무 판단 결과, 분류 작업 결과)
-	 
----
+ * Learning_rate 변경(mfcc,mfcc_delta 평균)
+ learning_rate = 0.01,0.001,0.0001
 
-## 검증
-
-* Learning_rate, batch_size, train_test rate 변경해가며 정확도 측정 
-
-
-* Learning_rate 변화 
-
+ |Size | 0.01|0.001| 0.0001|  avg|
+ |:---:|:---:|:---:|:-----:|:---:|
+ |56X56|85.5%|85.5%|  85.5%|85.5%|
   
-* 질병 분류 작업 결과  
+ * batch_size 변경(mfcc,mfcc_delta 평균)
+ batch_size = 100,200,300,400
 
- Train Data 수 | 정확도| Code 
- :---:|:---:|:---:|
- 100 개|0.85%|[[Code]()]
- 200 개|0.95%|[[Code]()]
- 300 개|0.95%|[[Code]()]
- 400 개|0.93%|[[Code]()]
+ |Size | 100| 200| 300| 400|   avg|
+ |:---:|:--:|:--:|:--:|:---:|:---:|
+ |56X56|84.6%|84.6%|84.6%|84.6%|84.6%|
+ * train, test set 변경(mfcc,mfcc_delta 평균)
  
+ |Size | case1| case2| case3|  avg|
+ |:---:|:----:|:----:|:----:|:---:|
+ |56X56|   88%| 85.8%|86.35%|84.6%|
  
+ * 결론
+ * CNN는 데이터 갯수가 많을수록 높은 정확도를 보임.
+ * 데이터 셋확보가 매우 중요함
 ---
 
 ## 추가작업
