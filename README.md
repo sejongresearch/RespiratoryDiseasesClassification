@@ -19,8 +19,8 @@ Respiratory Diseases Classification Using Audio Data
 ---
 
 ##  결과물
-- [텀프로젝트 논문](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/%ED%98%B8%ED%9D%A1%EA%B8%B0%20%EC%86%8C%EB%A6%AC%20%EB%B6%84%EC%84%9D%EC%9D%84%20%ED%86%B5%ED%95%9C%20%EC%A7%88%EB%B3%91%EC%9C%A0%EB%AC%B4%20%ED%8C%90%EB%8B%A8%EA%B3%BC%2C%20%EC%A7%88%EB%B3%91%EB%B6%84%EB%A5%98_%EC%B5%9C%EC%A2%85.pdf)
-- [텀프로젝트 발표자료]()
+- [텀프로젝트 논문](https://github.com/sejongresearch/Greatest-Classify-Group/blob/master/%ED%98%B8%ED%9D%A1%EA%B8%B0%20%EC%86%8C%EB%A6%AC%20%EB%B6%84%EC%84%9D%EC%9D%84%20%ED%86%B5%ED%95%9C%20%EC%A7%88%EB%B3%91%EC%9C%A0%EB%AC%B4%20%ED%8C%90%EB%8B%A8%EA%B3%BC%2C%20%EC%A7%88%EB%B3%91%EB%B6%84%EB%A5%98_%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
+- [텀프로젝트 발표자료](https://github.com/sejongresearch/Greatest-Classify-Group/blob/master/AI_%ED%98%B8%ED%9D%A1%EA%B8%B0%EB%B6%84%EC%84%9D%EC%9D%84%20%ED%86%B5%ED%95%9C%20%EC%A7%88%EB%B3%91%20%EB%B6%84%EB%A5%98_7%EC%A1%B0_%EB%B6%84%EB%A5%98%EC%A7%80%EB%A0%B8%EC%A1%B0_%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf)
 
 ---
 
