@@ -112,7 +112,7 @@ Respiratory Diseases Classification Using Audio Data
 ## 검증
 
 *  train_test rate,Learning_rate, batch_size,train, test set 변경해가며 정확도 측정 
-
+  (batch_size = 100 ,learning_rate = 0.001 , layers =3)
 
   * train_test rate 변경(mfcc,mfcc_delta 평균)
 	* 9:1(질병 여부 분류)
@@ -123,7 +123,8 @@ Respiratory Diseases Classification Using Audio Data
 	  |   56X56|85.45%|[[Code]()]|
  	  |   28X28|85.95%|[[Code]()]|
  	  |   14X14| 86.3%|[[Code]()]|
-	  (batch_size = 100 ,learning_rate = 0.001 , layers =3)
+	  
+	
 	 * 7:3(질병 여부 분류)  
 	 
 	  |Size    |정확도 |   Code  |
