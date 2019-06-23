@@ -236,9 +236,9 @@ Train Data 수 | 정확도 | Code
  300 개|0.95%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi_300_85_95.ipynb)]
  400 개|0.93%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi_400_85_93..ipynb)]
  500 개|0.89%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi_89%25.ipynb)] 
- 600 개|0.93%|[[Code]()] 
- 700 개|0.87%|[[Code]()] 
- 800 개|0.87%|[[Code]()]  
+ 600 개|0.93%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_using_mfcc_multi_600_85_93..ipynb)] 
+ 700 개|0.87%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi_700_87..ipynb)] 
+ 800 개|0.87%|[[Code](https://github.com/Hongiee2/Greatest-Classify-Group/blob/master/Project/05.%20Validation/SVM_multi_800_87..ipynb)]  
  
 * 결과
   * SVM의 질병 유무 판단의 결과를 보았을 때 약간의 오차는 있지만 일반적으로 train data의 개수가 올라갈수록 더 높은 정확도를 보이는 것으로 나타났다. 하지만 질병 분류 작업의 경우 train data의 개수가 올라가도 정확도가 감소하는 등 변화가 나타난다. 이는 train data와 test data의 비율을 8:2로 잡았는데 라벨링되어 있는 데이터들이 균일하지 않게 분포하다보니 test 데이터를 어떻게 잡느냐에 따라 정확도에 영향을 미친 것으로 추측된다. 따라서 800개를 train한 모델이 가장 신뢰도 높은 모델이라 할 수 있으며 이러한 문제는 총 데이터가 많으면 해결될 것이라고 판단한다.
