@@ -160,7 +160,7 @@ Respiratory Diseases Classification Using Audio Data
    * 데이터 셋확보가 매우 중요함
 ---
 
-## SVM 
+## SVM 학습과정
 
 <p align="center">
 <img width="300" src="https://user-images.githubusercontent.com/46617803/59861489-dd270480-93bb-11e9-844b-008ea200264f.png">
