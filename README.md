@@ -125,7 +125,7 @@ Respiratory Diseases Classification Using Audio Data
  	  |   14X14| 86.3%|[[Code]()]|
 	  
 	
-	 * 7:3(질병 여부 분류)  
+	* 7:3(질병 여부 분류)  
 	 
 	  |Size    |정확도 |   Code  |
  	  |:------:|:----:|:--------:|
@@ -134,6 +134,7 @@ Respiratory Diseases Classification Using Audio Data
  	  |   28X28|   82%|[[Code]()]|
  	  |   14X14| 83.75%|[[Code]()]|
 
+ * size가 56X56 training_rate 8:2가 가장 높아 비교값으로 사용
  * Learning_rate 변경(mfcc,mfcc_delta 평균)
  learning_rate = 0.01,0.001,0.0001
 
